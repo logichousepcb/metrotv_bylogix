@@ -188,25 +188,7 @@ Custom alert messages can be displayed, including:
 
 ---
 
-## Screenshots
 
-### Main Display
-
-![Main Display](nfta-transit-tv.html.png)
-
-### University Station Example
-
-![University Station Example](nfta-transit-tv.html+university.png)
-
-### Station Configuration Editor
-
-![Station Configuration Editor](nfta_transit_tv_station_editor.php.png)
-
-### API Configuration Utility
-
-![API Configuration Utility](nfta-tv.php.png)
-
----
 
 ## Experimental Work
 
@@ -218,7 +200,7 @@ These files represent exploratory development and are not currently part of the 
 
 ## Project Status
 
-This project is functional and actively used as a transit information display platform. The current implementation focuses on practical deployment and operational use. Future development may include:
+This project is functional and is NOT actively used as a transit information display platform. The current implementation focuses on practical deployment and operational use. Future development may include:
 
 * Enhanced administrative tools
 * Real-time rail integration
