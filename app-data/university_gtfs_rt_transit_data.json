@@ -1,0 +1,1131 @@
+{
+  "station": {
+    "name": "University",
+    "latitude": "42.9547",
+    "longitude": "-78.8206",
+    "distance": ".2",
+    "routes": [
+      "145",
+      "8",
+      "19",
+      "44",
+      "5",
+      "47",
+      "48"
+    ]
+  },
+  "routes": [
+    {
+      "route_id": "8",
+      "route_short_name": "8",
+      "route_long_name": "Main",
+      "real_time_route_id": "8",
+      "route_color": "",
+      "mode_name": "Bus",
+      "alerts": [],
+      "itineraries": [
+        {
+          "direction_headsign": "8 MAIN-BAILEY",
+          "headsign": "8 MAIN-BAILEY",
+          "closest_stop": {
+            "stop_id": "31400",
+            "stop_name": "Main Street & University Station",
+            "stop_lat": 42.95493,
+            "stop_lon": -78.820201
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777026420,
+              "scheduled_arrival_time": 1777026360,
+              "delay_seconds": 60,
+              "is_real_time": true,
+              "trip_id": "4802434",
+              "vehicle": {
+                "vehicle_id": "1213",
+                "vehicle_label": "1213",
+                "timestamp": 1777025229,
+                "stop_id": "30950",
+                "current_status": 2,
+                "latitude": 42.90733337402344,
+                "longitude": -78.86727142333984,
+                "bearing": 0.0
+              }
+            },
+            {
+              "arrival_time": 1777028160,
+              "scheduled_arrival_time": 1777028160,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4802406"
+            },
+            {
+              "arrival_time": 1777030020,
+              "scheduled_arrival_time": 1777030020,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4802407"
+            },
+            {
+              "arrival_time": 1777031760,
+              "scheduled_arrival_time": 1777031760,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4803038"
+            },
+            {
+              "arrival_time": 1777032960,
+              "scheduled_arrival_time": 1777032960,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4802408"
+            },
+            {
+              "arrival_time": 1777033860,
+              "scheduled_arrival_time": 1777033860,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4803039"
+            }
+          ]
+        },
+        {
+          "direction_headsign": "8 DOWNTOWN",
+          "headsign": "8 DOWNTOWN",
+          "closest_stop": {
+            "stop_id": "31640",
+            "stop_name": "Main Street & Kenmore Avenue",
+            "stop_lat": 42.95735,
+            "stop_lon": -78.819062
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777027337,
+              "scheduled_arrival_time": 1777027337,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4802380"
+            },
+            {
+              "arrival_time": 1777028237,
+              "scheduled_arrival_time": 1777028237,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4803033"
+            },
+            {
+              "arrival_time": 1777029137,
+              "scheduled_arrival_time": 1777029137,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4802381"
+            },
+            {
+              "arrival_time": 1777030037,
+              "scheduled_arrival_time": 1777030037,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4803034"
+            },
+            {
+              "arrival_time": 1777030937,
+              "scheduled_arrival_time": 1777030937,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4802382"
+            },
+            {
+              "arrival_time": 1777031837,
+              "scheduled_arrival_time": 1777031837,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4803035"
+            }
+          ]
+        },
+        {
+          "direction_headsign": "8 DOWNTOWN",
+          "headsign": "8 DOWNTOWN",
+          "closest_stop": {
+            "stop_id": "31400",
+            "stop_name": "Main Street & University Station",
+            "stop_lat": 42.95493,
+            "stop_lon": -78.820201
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777027440,
+              "scheduled_arrival_time": 1777027440,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4802380"
+            },
+            {
+              "arrival_time": 1777028340,
+              "scheduled_arrival_time": 1777028340,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4803033"
+            },
+            {
+              "arrival_time": 1777029240,
+              "scheduled_arrival_time": 1777029240,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4802381"
+            },
+            {
+              "arrival_time": 1777030140,
+              "scheduled_arrival_time": 1777030140,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4803034"
+            },
+            {
+              "arrival_time": 1777031040,
+              "scheduled_arrival_time": 1777031040,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4802382"
+            },
+            {
+              "arrival_time": 1777031940,
+              "scheduled_arrival_time": 1777031940,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4803035"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route_id": "5",
+      "route_short_name": "5",
+      "route_long_name": "Niagara-Kenmore",
+      "real_time_route_id": "5",
+      "route_color": "",
+      "mode_name": "Bus",
+      "alerts": [],
+      "itineraries": [
+        {
+          "direction_headsign": "5 DOWNTOWN",
+          "headsign": "5 DOWNTOWN",
+          "closest_stop": {
+            "stop_id": "31360",
+            "stop_name": "Main Street & University Station",
+            "stop_lat": 42.954526,
+            "stop_lon": -78.820463
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777026000,
+              "scheduled_arrival_time": 1777026000,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4806013"
+            },
+            {
+              "arrival_time": 1777026900,
+              "scheduled_arrival_time": 1777026900,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4805523"
+            },
+            {
+              "arrival_time": 1777027800,
+              "scheduled_arrival_time": 1777027800,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4805524"
+            },
+            {
+              "arrival_time": 1777028700,
+              "scheduled_arrival_time": 1777028700,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4805525"
+            },
+            {
+              "arrival_time": 1777029900,
+              "scheduled_arrival_time": 1777029900,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4806014"
+            },
+            {
+              "arrival_time": 1777030620,
+              "scheduled_arrival_time": 1777030620,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4805526"
+            }
+          ]
+        },
+        {
+          "direction_headsign": "5  UNIVERSITY STATION",
+          "headsign": "5  UNIVERSITY STATION",
+          "closest_stop": {
+            "stop_id": "31360",
+            "stop_name": "Main Street & University Station",
+            "stop_lat": 42.954526,
+            "stop_lon": -78.820463
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777026180,
+              "scheduled_arrival_time": 1777026180,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4805484"
+            },
+            {
+              "arrival_time": 1777028100,
+              "scheduled_arrival_time": 1777028040,
+              "delay_seconds": 60,
+              "is_real_time": true,
+              "trip_id": "4805485",
+              "vehicle": {
+                "vehicle_id": "1907",
+                "vehicle_label": "1907",
+                "timestamp": 1777025228,
+                "stop_id": "35920",
+                "current_status": 2,
+                "latitude": 42.89922332763672,
+                "longitude": -78.89019775390625,
+                "bearing": 315.0
+              }
+            },
+            {
+              "arrival_time": 1777029300,
+              "scheduled_arrival_time": 1777029300,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4805486"
+            },
+            {
+              "arrival_time": 1777030140,
+              "scheduled_arrival_time": 1777030140,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4805487"
+            },
+            {
+              "arrival_time": 1777031580,
+              "scheduled_arrival_time": 1777031580,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4805660"
+            },
+            {
+              "arrival_time": 1777032720,
+              "scheduled_arrival_time": 1777032720,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4805488"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route_id": "19",
+      "route_short_name": "19",
+      "route_long_name": "Bailey",
+      "real_time_route_id": "19",
+      "route_color": "",
+      "mode_name": "Bus",
+      "alerts": [],
+      "itineraries": [
+        {
+          "direction_headsign": "19 BAILEY-ABBOTT VIA BUFF. INDUSTRIAL PK",
+          "headsign": "19 BAILEY-ABBOTT VIA BUFF. INDUSTRIAL PK",
+          "closest_stop": {
+            "stop_id": "31350",
+            "stop_name": "Main Street & University Station",
+            "stop_lat": 42.95502,
+            "stop_lon": -78.820225
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777026000,
+              "scheduled_arrival_time": 1777026000,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4800959"
+            },
+            {
+              "arrival_time": 1777029600,
+              "scheduled_arrival_time": 1777029600,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4800961"
+            },
+            {
+              "arrival_time": 1777033200,
+              "scheduled_arrival_time": 1777033200,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4800963"
+            }
+          ]
+        },
+        {
+          "direction_headsign": "19  UNIVERSITY STATION",
+          "headsign": "19  UNIVERSITY STATION",
+          "closest_stop": {
+            "stop_id": "31640",
+            "stop_name": "Main Street & Kenmore Avenue",
+            "stop_lat": 42.95735,
+            "stop_lon": -78.819062
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777026283,
+              "scheduled_arrival_time": 1777026283,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4801010",
+              "vehicle": {
+                "vehicle_id": "1822",
+                "vehicle_label": "1822",
+                "timestamp": 1777025224,
+                "stop_id": "2710",
+                "current_status": 2,
+                "latitude": 42.91239547729492,
+                "longitude": -78.81367492675781,
+                "bearing": 0.0
+              }
+            },
+            {
+              "arrival_time": 1777027954,
+              "scheduled_arrival_time": 1777027954,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4801011"
+            },
+            {
+              "arrival_time": 1777028854,
+              "scheduled_arrival_time": 1777028854,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4801012"
+            },
+            {
+              "arrival_time": 1777030174,
+              "scheduled_arrival_time": 1777030174,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4801555"
+            },
+            {
+              "arrival_time": 1777031674,
+              "scheduled_arrival_time": 1777031674,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4801013"
+            },
+            {
+              "arrival_time": 1777032574,
+              "scheduled_arrival_time": 1777032574,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4801571"
+            }
+          ]
+        },
+        {
+          "direction_headsign": "19  UNIVERSITY STATION",
+          "headsign": "19  UNIVERSITY STATION",
+          "closest_stop": {
+            "stop_id": "31350",
+            "stop_name": "Main Street & University Station",
+            "stop_lat": 42.95502,
+            "stop_lon": -78.820225
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777026360,
+              "scheduled_arrival_time": 1777026360,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4801010",
+              "vehicle": {
+                "vehicle_id": "1822",
+                "vehicle_label": "1822",
+                "timestamp": 1777025224,
+                "stop_id": "2710",
+                "current_status": 2,
+                "latitude": 42.91239547729492,
+                "longitude": -78.81367492675781,
+                "bearing": 0.0
+              }
+            },
+            {
+              "arrival_time": 1777028040,
+              "scheduled_arrival_time": 1777028040,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4801011"
+            },
+            {
+              "arrival_time": 1777028940,
+              "scheduled_arrival_time": 1777028940,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4801012"
+            },
+            {
+              "arrival_time": 1777030260,
+              "scheduled_arrival_time": 1777030260,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4801555"
+            },
+            {
+              "arrival_time": 1777031760,
+              "scheduled_arrival_time": 1777031760,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4801013"
+            },
+            {
+              "arrival_time": 1777032660,
+              "scheduled_arrival_time": 1777032660,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4801571"
+            }
+          ]
+        },
+        {
+          "direction_headsign": "19 BAILEY-ABBOTT",
+          "headsign": "19 BAILEY-ABBOTT",
+          "closest_stop": {
+            "stop_id": "31350",
+            "stop_name": "Main Street & University Station",
+            "stop_lat": 42.95502,
+            "stop_lon": -78.820225
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777027200,
+              "scheduled_arrival_time": 1777027200,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4801572"
+            },
+            {
+              "arrival_time": 1777028400,
+              "scheduled_arrival_time": 1777028400,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4800960"
+            },
+            {
+              "arrival_time": 1777030800,
+              "scheduled_arrival_time": 1777030800,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4801439"
+            },
+            {
+              "arrival_time": 1777032000,
+              "scheduled_arrival_time": 1777032000,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4800962"
+            },
+            {
+              "arrival_time": 1777034400,
+              "scheduled_arrival_time": 1777034400,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4800964"
+            },
+            {
+              "arrival_time": 1777035600,
+              "scheduled_arrival_time": 1777035600,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4800965"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route_id": "48",
+      "route_short_name": "48",
+      "route_long_name": "Williamsville",
+      "real_time_route_id": "48",
+      "route_color": "",
+      "mode_name": "Bus",
+      "alerts": [],
+      "itineraries": [
+        {
+          "direction_headsign": "48 TRANSIT 48 EASTERN HILLS",
+          "headsign": "48 TRANSIT 48 EASTERN HILLS",
+          "closest_stop": {
+            "stop_id": "31390",
+            "stop_name": "Main Street & University Station",
+            "stop_lat": 42.954504,
+            "stop_lon": -78.820716
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777027080,
+              "scheduled_arrival_time": 1777027080,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4802819"
+            },
+            {
+              "arrival_time": 1777028100,
+              "scheduled_arrival_time": 1777028100,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4802820"
+            },
+            {
+              "arrival_time": 1777029300,
+              "scheduled_arrival_time": 1777029300,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4802821"
+            },
+            {
+              "arrival_time": 1777030500,
+              "scheduled_arrival_time": 1777030500,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4802851"
+            },
+            {
+              "arrival_time": 1777032000,
+              "scheduled_arrival_time": 1777032000,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4802822"
+            },
+            {
+              "arrival_time": 1777033500,
+              "scheduled_arrival_time": 1777033500,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4802852"
+            }
+          ]
+        },
+        {
+          "direction_headsign": "48A UNIVERSITY STATION",
+          "headsign": "48A UNIVERSITY STATION",
+          "closest_stop": {
+            "stop_id": "31640",
+            "stop_name": "Main Street & Kenmore Avenue",
+            "stop_lat": 42.95735,
+            "stop_lon": -78.819062
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777027451,
+              "scheduled_arrival_time": 1777027451,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4802801"
+            }
+          ]
+        },
+        {
+          "direction_headsign": "48A UNIVERSITY STATION",
+          "headsign": "48A UNIVERSITY STATION",
+          "closest_stop": {
+            "stop_id": "31390",
+            "stop_name": "Main Street & University Station",
+            "stop_lat": 42.954504,
+            "stop_lon": -78.820716
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777027500,
+              "scheduled_arrival_time": 1777027500,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4802801"
+            }
+          ]
+        },
+        {
+          "direction_headsign": "48 UNIVERSITY STATION",
+          "headsign": "48 UNIVERSITY STATION",
+          "closest_stop": {
+            "stop_id": "31640",
+            "stop_name": "Main Street & Kenmore Avenue",
+            "stop_lat": 42.95735,
+            "stop_lon": -78.819062
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777028951,
+              "scheduled_arrival_time": 1777028951,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4802802"
+            },
+            {
+              "arrival_time": 1777031044,
+              "scheduled_arrival_time": 1777031044,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4802803"
+            },
+            {
+              "arrival_time": 1777033444,
+              "scheduled_arrival_time": 1777033444,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4802804"
+            },
+            {
+              "arrival_time": 1777034644,
+              "scheduled_arrival_time": 1777034644,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4802839"
+            }
+          ]
+        },
+        {
+          "direction_headsign": "48 UNIVERSITY STATION",
+          "headsign": "48 UNIVERSITY STATION",
+          "closest_stop": {
+            "stop_id": "31390",
+            "stop_name": "Main Street & University Station",
+            "stop_lat": 42.954504,
+            "stop_lon": -78.820716
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777029000,
+              "scheduled_arrival_time": 1777029000,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4802802"
+            },
+            {
+              "arrival_time": 1777031100,
+              "scheduled_arrival_time": 1777031100,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4802803"
+            },
+            {
+              "arrival_time": 1777033500,
+              "scheduled_arrival_time": 1777033500,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4802804"
+            },
+            {
+              "arrival_time": 1777034700,
+              "scheduled_arrival_time": 1777034700,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4802839"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route_id": "145",
+      "route_short_name": "",
+      "route_long_name": "METRO RAIL",
+      "real_time_route_id": "145",
+      "route_color": "",
+      "mode_name": "Light Rail",
+      "alerts": [],
+      "itineraries": [
+        {
+          "direction_headsign": "UNIVERSITY STATION",
+          "headsign": "UNIVERSITY STATION",
+          "closest_stop": {
+            "stop_id": "R366",
+            "stop_name": "University Station",
+            "stop_lat": 42.954389,
+            "stop_lon": -78.820153
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777025400,
+              "scheduled_arrival_time": 1777025400,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "373"
+            },
+            {
+              "arrival_time": 1777026600,
+              "scheduled_arrival_time": 1777026600,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "374"
+            },
+            {
+              "arrival_time": 1777027800,
+              "scheduled_arrival_time": 1777027800,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "375"
+            },
+            {
+              "arrival_time": 1777029000,
+              "scheduled_arrival_time": 1777029000,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "376"
+            },
+            {
+              "arrival_time": 1777030200,
+              "scheduled_arrival_time": 1777030200,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "377"
+            },
+            {
+              "arrival_time": 1777031400,
+              "scheduled_arrival_time": 1777031400,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "378"
+            }
+          ]
+        },
+        {
+          "direction_headsign": "DL&W STATION",
+          "headsign": "DL&W STATION",
+          "closest_stop": {
+            "stop_id": "R367",
+            "stop_name": "University Station",
+            "stop_lat": 42.954409,
+            "stop_lon": -78.820253
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777026240,
+              "scheduled_arrival_time": 1777026240,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "159"
+            },
+            {
+              "arrival_time": 1777027440,
+              "scheduled_arrival_time": 1777027440,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "160"
+            },
+            {
+              "arrival_time": 1777028640,
+              "scheduled_arrival_time": 1777028640,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "161"
+            },
+            {
+              "arrival_time": 1777029840,
+              "scheduled_arrival_time": 1777029840,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "162"
+            },
+            {
+              "arrival_time": 1777031040,
+              "scheduled_arrival_time": 1777031040,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "163"
+            },
+            {
+              "arrival_time": 1777032240,
+              "scheduled_arrival_time": 1777032240,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "164"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route_id": "44",
+      "route_short_name": "44",
+      "route_long_name": "Lockport",
+      "real_time_route_id": "44",
+      "route_color": "",
+      "mode_name": "Bus",
+      "alerts": [],
+      "itineraries": [
+        {
+          "direction_headsign": "44B LOCKPORT",
+          "headsign": "44B LOCKPORT",
+          "closest_stop": {
+            "stop_id": "31380",
+            "stop_name": "Main Street & University Station",
+            "stop_lat": 42.954621,
+            "stop_lon": -78.821071
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777026000,
+              "scheduled_arrival_time": 1777026000,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4802352"
+            },
+            {
+              "arrival_time": 1777027200,
+              "scheduled_arrival_time": 1777027200,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4802847"
+            },
+            {
+              "arrival_time": 1777029600,
+              "scheduled_arrival_time": 1777029600,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4802355"
+            },
+            {
+              "arrival_time": 1777031700,
+              "scheduled_arrival_time": 1777031700,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4802846"
+            },
+            {
+              "arrival_time": 1777033800,
+              "scheduled_arrival_time": 1777033800,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4802850"
+            }
+          ]
+        },
+        {
+          "direction_headsign": "44B UNIVERSITY 44B STATION VIA LOCKPORT HOSPITAL",
+          "headsign": "44B UNIVERSITY 44B STATION VIA LOCKPORT HOSPITAL",
+          "closest_stop": {
+            "stop_id": "31640",
+            "stop_name": "Main Street & Kenmore Avenue",
+            "stop_lat": 42.95735,
+            "stop_lon": -78.819062
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777029071,
+              "scheduled_arrival_time": 1777029071,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4802353"
+            }
+          ]
+        },
+        {
+          "direction_headsign": "44B UNIVERSITY 44B STATION VIA LOCKPORT HOSPITAL",
+          "headsign": "44B UNIVERSITY 44B STATION VIA LOCKPORT HOSPITAL",
+          "closest_stop": {
+            "stop_id": "31380",
+            "stop_name": "Main Street & University Station",
+            "stop_lat": 42.954621,
+            "stop_lon": -78.821071
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777029120,
+              "scheduled_arrival_time": 1777029120,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4802353"
+            }
+          ]
+        },
+        {
+          "direction_headsign": "44B UNIVERSITY STATION",
+          "headsign": "44B UNIVERSITY STATION",
+          "closest_stop": {
+            "stop_id": "31640",
+            "stop_name": "Main Street & Kenmore Avenue",
+            "stop_lat": 42.95735,
+            "stop_lon": -78.819062
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777032904,
+              "scheduled_arrival_time": 1777032904,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4802354"
+            },
+            {
+              "arrival_time": 1777034944,
+              "scheduled_arrival_time": 1777034944,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4802859"
+            }
+          ]
+        },
+        {
+          "direction_headsign": "44B UNIVERSITY STATION",
+          "headsign": "44B UNIVERSITY STATION",
+          "closest_stop": {
+            "stop_id": "31380",
+            "stop_name": "Main Street & University Station",
+            "stop_lat": 42.954621,
+            "stop_lon": -78.821071
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777032960,
+              "scheduled_arrival_time": 1777032960,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4802354"
+            },
+            {
+              "arrival_time": 1777035000,
+              "scheduled_arrival_time": 1777035000,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4802859"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route_id": "47",
+      "route_short_name": "47",
+      "route_long_name": "Wehrle",
+      "real_time_route_id": "47",
+      "route_color": "",
+      "mode_name": "Bus",
+      "alerts": [],
+      "itineraries": [
+        {
+          "direction_headsign": "47 TRANSIT 47 EASTERN HILLS",
+          "headsign": "47 TRANSIT 47 EASTERN HILLS",
+          "closest_stop": {
+            "stop_id": "31360",
+            "stop_name": "Main Street & University Station",
+            "stop_lat": 42.954526,
+            "stop_lon": -78.820463
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777025400,
+              "scheduled_arrival_time": 1777025400,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4802786"
+            },
+            {
+              "arrival_time": 1777027200,
+              "scheduled_arrival_time": 1777027200,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4802787"
+            },
+            {
+              "arrival_time": 1777029000,
+              "scheduled_arrival_time": 1777029000,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4802788"
+            },
+            {
+              "arrival_time": 1777031100,
+              "scheduled_arrival_time": 1777031100,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4802789"
+            },
+            {
+              "arrival_time": 1777032900,
+              "scheduled_arrival_time": 1777032900,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4802790"
+            }
+          ]
+        },
+        {
+          "direction_headsign": "47 UNIVERSITY STATION",
+          "headsign": "47 UNIVERSITY STATION",
+          "closest_stop": {
+            "stop_id": "31640",
+            "stop_name": "Main Street & Kenmore Avenue",
+            "stop_lat": 42.95735,
+            "stop_lon": -78.819062
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777030444,
+              "scheduled_arrival_time": 1777030444,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4802773"
+            },
+            {
+              "arrival_time": 1777032244,
+              "scheduled_arrival_time": 1777032244,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4802774"
+            },
+            {
+              "arrival_time": 1777034644,
+              "scheduled_arrival_time": 1777034644,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4802775"
+            }
+          ]
+        },
+        {
+          "direction_headsign": "47 UNIVERSITY STATION",
+          "headsign": "47 UNIVERSITY STATION",
+          "closest_stop": {
+            "stop_id": "31360",
+            "stop_name": "Main Street & University Station",
+            "stop_lat": 42.954526,
+            "stop_lon": -78.820463
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777030500,
+              "scheduled_arrival_time": 1777030500,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4802773"
+            },
+            {
+              "arrival_time": 1777032300,
+              "scheduled_arrival_time": 1777032300,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4802774"
+            },
+            {
+              "arrival_time": 1777034700,
+              "scheduled_arrival_time": 1777034700,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "4802775"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

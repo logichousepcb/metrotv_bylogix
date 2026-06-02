@@ -1,0 +1,9 @@
+{
+    "latitude": "42.9547",
+    "longitude": "-78.8206",
+    "radius_miles": "25",
+    "trip_updates_url": "https://gtfsr.nfta.com/api/tripupdates?format=gtfs.proto",
+    "vehicle_positions_url": "https://gtfsr.nfta.com/api/vehiclepositions?format=gtfs.proto",
+    "alerts_url": "https://gtfsr.nfta.com/api/servicealerts?format=gtfs.proto",
+    "updated_at_utc": "2026-05-03T10:42:31+00:00"
+}

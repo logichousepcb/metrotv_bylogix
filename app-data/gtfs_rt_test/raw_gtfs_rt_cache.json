@@ -1,0 +1,1429 @@
+{
+  "generated_at_utc": "2026-04-24T08:56:22.957853+00:00",
+  "source": "gtfs-rt",
+  "timezone": "America/New_York",
+  "lookahead_minutes": 180,
+  "routes": [
+    {
+      "route_id": "145",
+      "route_short_name": "",
+      "route_long_name": "METRO RAIL",
+      "real_time_route_id": "145",
+      "route_color": "",
+      "mode_name": "Light Rail",
+      "alerts": [],
+      "itineraries": [
+        {
+          "direction_headsign": "UNIVERSITY STATION",
+          "headsign": "UNIVERSITY STATION",
+          "closest_stop": {
+            "stop_id": "R464",
+            "stop_name": "Canalside Station",
+            "stop_lat": 42.8781,
+            "stop_lon": -78.87677
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777021740,
+              "scheduled_arrival_time": 1777021740,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "371"
+            },
+            {
+              "arrival_time": 1777022940,
+              "scheduled_arrival_time": 1777022940,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "372"
+            },
+            {
+              "arrival_time": 1777024140,
+              "scheduled_arrival_time": 1777024140,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "373"
+            },
+            {
+              "arrival_time": 1777025340,
+              "scheduled_arrival_time": 1777025340,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "374"
+            },
+            {
+              "arrival_time": 1777026540,
+              "scheduled_arrival_time": 1777026540,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "375"
+            },
+            {
+              "arrival_time": 1777027740,
+              "scheduled_arrival_time": 1777027740,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "376"
+            }
+          ]
+        },
+        {
+          "direction_headsign": "UNIVERSITY STATION",
+          "headsign": "UNIVERSITY STATION",
+          "closest_stop": {
+            "stop_id": "R466",
+            "stop_name": "Seneca Station - Merchants Insurance",
+            "stop_lat": 42.881515,
+            "stop_lon": -78.875651
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777021800,
+              "scheduled_arrival_time": 1777021800,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "371"
+            },
+            {
+              "arrival_time": 1777023000,
+              "scheduled_arrival_time": 1777023000,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "372"
+            },
+            {
+              "arrival_time": 1777024200,
+              "scheduled_arrival_time": 1777024200,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "373"
+            },
+            {
+              "arrival_time": 1777025400,
+              "scheduled_arrival_time": 1777025400,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "374"
+            },
+            {
+              "arrival_time": 1777026600,
+              "scheduled_arrival_time": 1777026600,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "375"
+            },
+            {
+              "arrival_time": 1777027800,
+              "scheduled_arrival_time": 1777027800,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "376"
+            }
+          ]
+        },
+        {
+          "direction_headsign": "UNIVERSITY STATION",
+          "headsign": "UNIVERSITY STATION",
+          "closest_stop": {
+            "stop_id": "R468",
+            "stop_name": "Church St Station",
+            "stop_lat": 42.884088,
+            "stop_lon": -78.874811
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777021920,
+              "scheduled_arrival_time": 1777021920,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "371"
+            },
+            {
+              "arrival_time": 1777023120,
+              "scheduled_arrival_time": 1777023120,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "372"
+            },
+            {
+              "arrival_time": 1777024320,
+              "scheduled_arrival_time": 1777024320,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "373"
+            },
+            {
+              "arrival_time": 1777025460,
+              "scheduled_arrival_time": 1777025460,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "374"
+            },
+            {
+              "arrival_time": 1777026660,
+              "scheduled_arrival_time": 1777026660,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "375"
+            },
+            {
+              "arrival_time": 1777027860,
+              "scheduled_arrival_time": 1777027860,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "376"
+            }
+          ]
+        },
+        {
+          "direction_headsign": "UNIVERSITY STATION",
+          "headsign": "UNIVERSITY STATION",
+          "closest_stop": {
+            "stop_id": "R470",
+            "stop_name": "Lafayette Station",
+            "stop_lat": 42.886409,
+            "stop_lon": -78.874051
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777022040,
+              "scheduled_arrival_time": 1777022040,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "371"
+            },
+            {
+              "arrival_time": 1777023240,
+              "scheduled_arrival_time": 1777023240,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "372"
+            },
+            {
+              "arrival_time": 1777024440,
+              "scheduled_arrival_time": 1777024440,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "373"
+            },
+            {
+              "arrival_time": 1777025580,
+              "scheduled_arrival_time": 1777025580,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "374"
+            },
+            {
+              "arrival_time": 1777026780,
+              "scheduled_arrival_time": 1777026780,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "375"
+            },
+            {
+              "arrival_time": 1777027980,
+              "scheduled_arrival_time": 1777027980,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "376"
+            }
+          ]
+        },
+        {
+          "direction_headsign": "UNIVERSITY STATION",
+          "headsign": "UNIVERSITY STATION",
+          "closest_stop": {
+            "stop_id": "R472",
+            "stop_name": "Fountain Plaza Station",
+            "stop_lat": 42.889308,
+            "stop_lon": -78.873062
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777022100,
+              "scheduled_arrival_time": 1777022100,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "371"
+            },
+            {
+              "arrival_time": 1777023300,
+              "scheduled_arrival_time": 1777023300,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "372"
+            },
+            {
+              "arrival_time": 1777024500,
+              "scheduled_arrival_time": 1777024500,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "373"
+            },
+            {
+              "arrival_time": 1777025700,
+              "scheduled_arrival_time": 1777025700,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "374"
+            },
+            {
+              "arrival_time": 1777026900,
+              "scheduled_arrival_time": 1777026900,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "375"
+            },
+            {
+              "arrival_time": 1777028100,
+              "scheduled_arrival_time": 1777028100,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "376"
+            }
+          ]
+        },
+        {
+          "direction_headsign": "UNIVERSITY STATION",
+          "headsign": "UNIVERSITY STATION",
+          "closest_stop": {
+            "stop_id": "R352",
+            "stop_name": "Allen-Medical Campus Sta.",
+            "stop_lat": 42.899622,
+            "stop_lon": -78.869702
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777022280,
+              "scheduled_arrival_time": 1777022280,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "371"
+            },
+            {
+              "arrival_time": 1777023480,
+              "scheduled_arrival_time": 1777023480,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "372"
+            },
+            {
+              "arrival_time": 1777024680,
+              "scheduled_arrival_time": 1777024680,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "373"
+            },
+            {
+              "arrival_time": 1777025880,
+              "scheduled_arrival_time": 1777025880,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "374"
+            },
+            {
+              "arrival_time": 1777027080,
+              "scheduled_arrival_time": 1777027080,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "375"
+            },
+            {
+              "arrival_time": 1777028280,
+              "scheduled_arrival_time": 1777028280,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "376"
+            }
+          ]
+        },
+        {
+          "direction_headsign": "UNIVERSITY STATION",
+          "headsign": "UNIVERSITY STATION",
+          "closest_stop": {
+            "stop_id": "R354",
+            "stop_name": "Summer-Best Station",
+            "stop_lat": 42.904829,
+            "stop_lon": -78.867941
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777022340,
+              "scheduled_arrival_time": 1777022340,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "371"
+            },
+            {
+              "arrival_time": 1777023540,
+              "scheduled_arrival_time": 1777023540,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "372"
+            },
+            {
+              "arrival_time": 1777024740,
+              "scheduled_arrival_time": 1777024740,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "373"
+            },
+            {
+              "arrival_time": 1777025940,
+              "scheduled_arrival_time": 1777025940,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "374"
+            },
+            {
+              "arrival_time": 1777027140,
+              "scheduled_arrival_time": 1777027140,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "375"
+            },
+            {
+              "arrival_time": 1777028340,
+              "scheduled_arrival_time": 1777028340,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "376"
+            }
+          ]
+        },
+        {
+          "direction_headsign": "UNIVERSITY STATION",
+          "headsign": "UNIVERSITY STATION",
+          "closest_stop": {
+            "stop_id": "R356",
+            "stop_name": "Utica Station",
+            "stop_lat": 42.911529,
+            "stop_lon": -78.865713
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777022400,
+              "scheduled_arrival_time": 1777022400,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "371"
+            },
+            {
+              "arrival_time": 1777023600,
+              "scheduled_arrival_time": 1777023600,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "372"
+            },
+            {
+              "arrival_time": 1777024800,
+              "scheduled_arrival_time": 1777024800,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "373"
+            },
+            {
+              "arrival_time": 1777026000,
+              "scheduled_arrival_time": 1777026000,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "374"
+            },
+            {
+              "arrival_time": 1777027200,
+              "scheduled_arrival_time": 1777027200,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "375"
+            },
+            {
+              "arrival_time": 1777028400,
+              "scheduled_arrival_time": 1777028400,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "376"
+            }
+          ]
+        },
+        {
+          "direction_headsign": "UNIVERSITY STATION",
+          "headsign": "UNIVERSITY STATION",
+          "closest_stop": {
+            "stop_id": "R358",
+            "stop_name": "Delavan-Canisius College",
+            "stop_lat": 42.92235,
+            "stop_lon": -78.856723
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777022520,
+              "scheduled_arrival_time": 1777022520,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "371"
+            },
+            {
+              "arrival_time": 1777023720,
+              "scheduled_arrival_time": 1777023720,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "372"
+            },
+            {
+              "arrival_time": 1777024920,
+              "scheduled_arrival_time": 1777024920,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "373"
+            },
+            {
+              "arrival_time": 1777026120,
+              "scheduled_arrival_time": 1777026120,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "374"
+            },
+            {
+              "arrival_time": 1777027320,
+              "scheduled_arrival_time": 1777027320,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "375"
+            },
+            {
+              "arrival_time": 1777028520,
+              "scheduled_arrival_time": 1777028520,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "376"
+            }
+          ]
+        },
+        {
+          "direction_headsign": "UNIVERSITY STATION",
+          "headsign": "UNIVERSITY STATION",
+          "closest_stop": {
+            "stop_id": "R371",
+            "stop_name": "Humboldt Station",
+            "stop_lat": 42.927499,
+            "stop_lon": -78.851533
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777022580,
+              "scheduled_arrival_time": 1777022580,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "371"
+            },
+            {
+              "arrival_time": 1777023780,
+              "scheduled_arrival_time": 1777023780,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "372"
+            },
+            {
+              "arrival_time": 1777024980,
+              "scheduled_arrival_time": 1777024980,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "373"
+            },
+            {
+              "arrival_time": 1777026180,
+              "scheduled_arrival_time": 1777026180,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "374"
+            },
+            {
+              "arrival_time": 1777027380,
+              "scheduled_arrival_time": 1777027380,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "375"
+            },
+            {
+              "arrival_time": 1777028580,
+              "scheduled_arrival_time": 1777028580,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "376"
+            }
+          ]
+        },
+        {
+          "direction_headsign": "UNIVERSITY STATION",
+          "headsign": "UNIVERSITY STATION",
+          "closest_stop": {
+            "stop_id": "R351",
+            "stop_name": "Amherst Station",
+            "stop_lat": 42.939819,
+            "stop_lon": -78.838361
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777022700,
+              "scheduled_arrival_time": 1777022700,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "371"
+            },
+            {
+              "arrival_time": 1777023900,
+              "scheduled_arrival_time": 1777023900,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "372"
+            },
+            {
+              "arrival_time": 1777025100,
+              "scheduled_arrival_time": 1777025100,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "373"
+            },
+            {
+              "arrival_time": 1777026300,
+              "scheduled_arrival_time": 1777026300,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "374"
+            },
+            {
+              "arrival_time": 1777027500,
+              "scheduled_arrival_time": 1777027500,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "375"
+            },
+            {
+              "arrival_time": 1777028700,
+              "scheduled_arrival_time": 1777028700,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "376"
+            }
+          ]
+        },
+        {
+          "direction_headsign": "UNIVERSITY STATION",
+          "headsign": "UNIVERSITY STATION",
+          "closest_stop": {
+            "stop_id": "R364",
+            "stop_name": "LaSalle Station",
+            "stop_lat": 42.947259,
+            "stop_lon": -78.83005
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777022820,
+              "scheduled_arrival_time": 1777022820,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "371"
+            },
+            {
+              "arrival_time": 1777024020,
+              "scheduled_arrival_time": 1777024020,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "372"
+            },
+            {
+              "arrival_time": 1777025220,
+              "scheduled_arrival_time": 1777025220,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "373"
+            },
+            {
+              "arrival_time": 1777026420,
+              "scheduled_arrival_time": 1777026420,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "374"
+            },
+            {
+              "arrival_time": 1777027620,
+              "scheduled_arrival_time": 1777027620,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "375"
+            },
+            {
+              "arrival_time": 1777028820,
+              "scheduled_arrival_time": 1777028820,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "376"
+            }
+          ]
+        },
+        {
+          "direction_headsign": "UNIVERSITY STATION",
+          "headsign": "UNIVERSITY STATION",
+          "closest_stop": {
+            "stop_id": "R366",
+            "stop_name": "University Station",
+            "stop_lat": 42.954389,
+            "stop_lon": -78.820153
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777022940,
+              "scheduled_arrival_time": 1777022940,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "371"
+            },
+            {
+              "arrival_time": 1777024140,
+              "scheduled_arrival_time": 1777024140,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "372"
+            },
+            {
+              "arrival_time": 1777025400,
+              "scheduled_arrival_time": 1777025400,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "373"
+            },
+            {
+              "arrival_time": 1777026600,
+              "scheduled_arrival_time": 1777026600,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "374"
+            },
+            {
+              "arrival_time": 1777027800,
+              "scheduled_arrival_time": 1777027800,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "375"
+            },
+            {
+              "arrival_time": 1777029000,
+              "scheduled_arrival_time": 1777029000,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "376"
+            }
+          ]
+        },
+        {
+          "direction_headsign": "DL&W STATION",
+          "headsign": "DL&W STATION",
+          "closest_stop": {
+            "stop_id": "R367",
+            "stop_name": "University Station",
+            "stop_lat": 42.954409,
+            "stop_lon": -78.820253
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777023840,
+              "scheduled_arrival_time": 1777023840,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "157"
+            },
+            {
+              "arrival_time": 1777025040,
+              "scheduled_arrival_time": 1777025040,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "158"
+            },
+            {
+              "arrival_time": 1777026240,
+              "scheduled_arrival_time": 1777026240,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "159"
+            },
+            {
+              "arrival_time": 1777027440,
+              "scheduled_arrival_time": 1777027440,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "160"
+            },
+            {
+              "arrival_time": 1777028640,
+              "scheduled_arrival_time": 1777028640,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "161"
+            },
+            {
+              "arrival_time": 1777029840,
+              "scheduled_arrival_time": 1777029840,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "162"
+            }
+          ]
+        },
+        {
+          "direction_headsign": "DL&W STATION",
+          "headsign": "DL&W STATION",
+          "closest_stop": {
+            "stop_id": "R365",
+            "stop_name": "LaSalle Station",
+            "stop_lat": 42.947528,
+            "stop_lon": -78.830232
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777023900,
+              "scheduled_arrival_time": 1777023900,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "157"
+            },
+            {
+              "arrival_time": 1777025100,
+              "scheduled_arrival_time": 1777025100,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "158"
+            },
+            {
+              "arrival_time": 1777026300,
+              "scheduled_arrival_time": 1777026300,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "159"
+            },
+            {
+              "arrival_time": 1777027500,
+              "scheduled_arrival_time": 1777027500,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "160"
+            },
+            {
+              "arrival_time": 1777028700,
+              "scheduled_arrival_time": 1777028700,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "161"
+            },
+            {
+              "arrival_time": 1777029900,
+              "scheduled_arrival_time": 1777029900,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "162"
+            }
+          ]
+        },
+        {
+          "direction_headsign": "DL&W STATION",
+          "headsign": "DL&W STATION",
+          "closest_stop": {
+            "stop_id": "R363",
+            "stop_name": "Amherst Station",
+            "stop_lat": 42.939828,
+            "stop_lon": -78.83863
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777024020,
+              "scheduled_arrival_time": 1777024020,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "157"
+            },
+            {
+              "arrival_time": 1777025220,
+              "scheduled_arrival_time": 1777025220,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "158"
+            },
+            {
+              "arrival_time": 1777026420,
+              "scheduled_arrival_time": 1777026420,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "159"
+            },
+            {
+              "arrival_time": 1777027620,
+              "scheduled_arrival_time": 1777027620,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "160"
+            },
+            {
+              "arrival_time": 1777028820,
+              "scheduled_arrival_time": 1777028820,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "161"
+            },
+            {
+              "arrival_time": 1777030020,
+              "scheduled_arrival_time": 1777030020,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "162"
+            }
+          ]
+        },
+        {
+          "direction_headsign": "DL&W STATION",
+          "headsign": "DL&W STATION",
+          "closest_stop": {
+            "stop_id": "R361",
+            "stop_name": "Humboldt Station",
+            "stop_lat": 42.927529,
+            "stop_lon": -78.851911
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777024140,
+              "scheduled_arrival_time": 1777024140,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "157"
+            },
+            {
+              "arrival_time": 1777025340,
+              "scheduled_arrival_time": 1777025340,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "158"
+            },
+            {
+              "arrival_time": 1777026540,
+              "scheduled_arrival_time": 1777026540,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "159"
+            },
+            {
+              "arrival_time": 1777027740,
+              "scheduled_arrival_time": 1777027740,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "160"
+            },
+            {
+              "arrival_time": 1777028940,
+              "scheduled_arrival_time": 1777028940,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "161"
+            },
+            {
+              "arrival_time": 1777030140,
+              "scheduled_arrival_time": 1777030140,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "162"
+            }
+          ]
+        },
+        {
+          "direction_headsign": "DL&W STATION",
+          "headsign": "DL&W STATION",
+          "closest_stop": {
+            "stop_id": "R359",
+            "stop_name": "Delavan-Canisius College",
+            "stop_lat": 42.922547,
+            "stop_lon": -78.857182
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777024200,
+              "scheduled_arrival_time": 1777024200,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "157"
+            },
+            {
+              "arrival_time": 1777025400,
+              "scheduled_arrival_time": 1777025400,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "158"
+            },
+            {
+              "arrival_time": 1777026600,
+              "scheduled_arrival_time": 1777026600,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "159"
+            },
+            {
+              "arrival_time": 1777027800,
+              "scheduled_arrival_time": 1777027800,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "160"
+            },
+            {
+              "arrival_time": 1777029000,
+              "scheduled_arrival_time": 1777029000,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "161"
+            },
+            {
+              "arrival_time": 1777030200,
+              "scheduled_arrival_time": 1777030200,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "162"
+            }
+          ]
+        },
+        {
+          "direction_headsign": "DL&W STATION",
+          "headsign": "DL&W STATION",
+          "closest_stop": {
+            "stop_id": "R357",
+            "stop_name": "Utica Station",
+            "stop_lat": 42.911669,
+            "stop_lon": -78.865903
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777024320,
+              "scheduled_arrival_time": 1777024320,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "157"
+            },
+            {
+              "arrival_time": 1777025520,
+              "scheduled_arrival_time": 1777025520,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "158"
+            },
+            {
+              "arrival_time": 1777026720,
+              "scheduled_arrival_time": 1777026720,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "159"
+            },
+            {
+              "arrival_time": 1777027920,
+              "scheduled_arrival_time": 1777027920,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "160"
+            },
+            {
+              "arrival_time": 1777029120,
+              "scheduled_arrival_time": 1777029120,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "161"
+            },
+            {
+              "arrival_time": 1777030320,
+              "scheduled_arrival_time": 1777030320,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "162"
+            }
+          ]
+        },
+        {
+          "direction_headsign": "DL&W STATION",
+          "headsign": "DL&W STATION",
+          "closest_stop": {
+            "stop_id": "R355",
+            "stop_name": "Summer-Best Station",
+            "stop_lat": 42.904878,
+            "stop_lon": -78.868192
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777024440,
+              "scheduled_arrival_time": 1777024440,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "157"
+            },
+            {
+              "arrival_time": 1777025640,
+              "scheduled_arrival_time": 1777025640,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "158"
+            },
+            {
+              "arrival_time": 1777026840,
+              "scheduled_arrival_time": 1777026840,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "159"
+            },
+            {
+              "arrival_time": 1777028040,
+              "scheduled_arrival_time": 1777028040,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "160"
+            },
+            {
+              "arrival_time": 1777029240,
+              "scheduled_arrival_time": 1777029240,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "161"
+            },
+            {
+              "arrival_time": 1777030440,
+              "scheduled_arrival_time": 1777030440,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "162"
+            }
+          ]
+        },
+        {
+          "direction_headsign": "DL&W STATION",
+          "headsign": "DL&W STATION",
+          "closest_stop": {
+            "stop_id": "R353",
+            "stop_name": "Allen-Medical Campus Sta.",
+            "stop_lat": 42.899705,
+            "stop_lon": -78.869926
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777024500,
+              "scheduled_arrival_time": 1777024500,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "157"
+            },
+            {
+              "arrival_time": 1777025700,
+              "scheduled_arrival_time": 1777025700,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "158"
+            },
+            {
+              "arrival_time": 1777026900,
+              "scheduled_arrival_time": 1777026900,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "159"
+            },
+            {
+              "arrival_time": 1777028100,
+              "scheduled_arrival_time": 1777028100,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "160"
+            },
+            {
+              "arrival_time": 1777029300,
+              "scheduled_arrival_time": 1777029300,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "161"
+            },
+            {
+              "arrival_time": 1777030500,
+              "scheduled_arrival_time": 1777030500,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "162"
+            }
+          ]
+        },
+        {
+          "direction_headsign": "DL&W STATION",
+          "headsign": "DL&W STATION",
+          "closest_stop": {
+            "stop_id": "R411",
+            "stop_name": "Fountain Plaza Station",
+            "stop_lat": 42.8893,
+            "stop_lon": -78.87326
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777024680,
+              "scheduled_arrival_time": 1777024680,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "157"
+            },
+            {
+              "arrival_time": 1777025880,
+              "scheduled_arrival_time": 1777025880,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "158"
+            },
+            {
+              "arrival_time": 1777027080,
+              "scheduled_arrival_time": 1777027080,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "159"
+            },
+            {
+              "arrival_time": 1777028280,
+              "scheduled_arrival_time": 1777028280,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "160"
+            },
+            {
+              "arrival_time": 1777029480,
+              "scheduled_arrival_time": 1777029480,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "161"
+            },
+            {
+              "arrival_time": 1777030680,
+              "scheduled_arrival_time": 1777030680,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "162"
+            }
+          ]
+        },
+        {
+          "direction_headsign": "DL&W STATION",
+          "headsign": "DL&W STATION",
+          "closest_stop": {
+            "stop_id": "R471",
+            "stop_name": "Lafayette Station",
+            "stop_lat": 42.886239,
+            "stop_lon": -78.874272
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777024800,
+              "scheduled_arrival_time": 1777024800,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "157"
+            },
+            {
+              "arrival_time": 1777026000,
+              "scheduled_arrival_time": 1777026000,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "158"
+            },
+            {
+              "arrival_time": 1777027200,
+              "scheduled_arrival_time": 1777027200,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "159"
+            },
+            {
+              "arrival_time": 1777028400,
+              "scheduled_arrival_time": 1777028400,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "160"
+            },
+            {
+              "arrival_time": 1777029600,
+              "scheduled_arrival_time": 1777029600,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "161"
+            },
+            {
+              "arrival_time": 1777030800,
+              "scheduled_arrival_time": 1777030800,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "162"
+            }
+          ]
+        },
+        {
+          "direction_headsign": "DL&W STATION",
+          "headsign": "DL&W STATION",
+          "closest_stop": {
+            "stop_id": "R469",
+            "stop_name": "Church St Station",
+            "stop_lat": 42.883512,
+            "stop_lon": -78.875178
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777024920,
+              "scheduled_arrival_time": 1777024920,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "157"
+            },
+            {
+              "arrival_time": 1777026120,
+              "scheduled_arrival_time": 1777026120,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "158"
+            },
+            {
+              "arrival_time": 1777027320,
+              "scheduled_arrival_time": 1777027320,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "159"
+            },
+            {
+              "arrival_time": 1777028520,
+              "scheduled_arrival_time": 1777028520,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "160"
+            },
+            {
+              "arrival_time": 1777029720,
+              "scheduled_arrival_time": 1777029720,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "161"
+            },
+            {
+              "arrival_time": 1777030920,
+              "scheduled_arrival_time": 1777030920,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "162"
+            }
+          ]
+        },
+        {
+          "direction_headsign": "DL&W STATION",
+          "headsign": "DL&W STATION",
+          "closest_stop": {
+            "stop_id": "R467",
+            "stop_name": "Seneca Station - Merchants Insurance",
+            "stop_lat": 42.880978,
+            "stop_lon": -78.875808
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777025040,
+              "scheduled_arrival_time": 1777025040,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "157"
+            },
+            {
+              "arrival_time": 1777026240,
+              "scheduled_arrival_time": 1777026240,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "158"
+            },
+            {
+              "arrival_time": 1777027440,
+              "scheduled_arrival_time": 1777027440,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "159"
+            },
+            {
+              "arrival_time": 1777028640,
+              "scheduled_arrival_time": 1777028640,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "160"
+            },
+            {
+              "arrival_time": 1777029840,
+              "scheduled_arrival_time": 1777029840,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "161"
+            },
+            {
+              "arrival_time": 1777031040,
+              "scheduled_arrival_time": 1777031040,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "162"
+            }
+          ]
+        },
+        {
+          "direction_headsign": "DL&W STATION",
+          "headsign": "DL&W STATION",
+          "closest_stop": {
+            "stop_id": "R454",
+            "stop_name": "Canalside Station",
+            "stop_lat": 42.87758,
+            "stop_lon": -78.877111
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777025160,
+              "scheduled_arrival_time": 1777025160,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "157"
+            },
+            {
+              "arrival_time": 1777026360,
+              "scheduled_arrival_time": 1777026360,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "158"
+            },
+            {
+              "arrival_time": 1777027560,
+              "scheduled_arrival_time": 1777027560,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "159"
+            },
+            {
+              "arrival_time": 1777028760,
+              "scheduled_arrival_time": 1777028760,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "160"
+            },
+            {
+              "arrival_time": 1777029960,
+              "scheduled_arrival_time": 1777029960,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "161"
+            },
+            {
+              "arrival_time": 1777031160,
+              "scheduled_arrival_time": 1777031160,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "162"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warning": "No GTFS-RT trip updates feed was provided; departures are schedule-based only.",
+  "query": {
+    "latitude": 42.9547,
+    "longitude": -78.8206,
+    "radius_miles": 25.0
+  }
+}

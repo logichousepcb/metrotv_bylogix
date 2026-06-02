@@ -1,0 +1,13 @@
+{
+  "station": {
+    "name": "Church Street",
+    "latitude": "42.88353",
+    "longitude": "-78.87518",
+    "distance": ".2",
+    "routes": [
+      "145",
+      "8"
+    ]
+  },
+  "routes": []
+}

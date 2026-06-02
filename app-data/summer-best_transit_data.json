@@ -1,0 +1,13 @@
+{
+  "station": {
+    "name": "Summer-Best",
+    "latitude": "42.90471",
+    "longitude": "-78.86761",
+    "distance": ".2",
+    "routes": [
+      "145",
+      "8"
+    ]
+  },
+  "routes": []
+}

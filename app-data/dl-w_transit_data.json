@@ -1,0 +1,12 @@
+{
+  "station": {
+    "name": "DL&W",
+    "latitude": "42.87421",
+    "longitude": "-78.87689",
+    "distance": ".2",
+    "routes": [
+      "145"
+    ]
+  },
+  "routes": []
+}

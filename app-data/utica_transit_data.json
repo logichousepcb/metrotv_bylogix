@@ -1,0 +1,15 @@
+{
+  "station": {
+    "name": "Utica",
+    "latitude": "49.91173",
+    "longitude": "-78.865591",
+    "distance": ".2",
+    "routes": [
+      "145",
+      "8",
+      "12",
+      "13"
+    ]
+  },
+  "routes": []
+}

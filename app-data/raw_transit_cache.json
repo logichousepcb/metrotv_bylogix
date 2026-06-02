@@ -1,0 +1,1543 @@
+{
+  "routes": [
+    {
+      "alerts": [],
+      "compact_display_short_name": {
+        "boxed_text": "",
+        "elements": [
+          "muni",
+          "",
+          null
+        ],
+        "route_name_redundancy": false
+      },
+      "fares": [],
+      "global_route_id": "NFTAMRNY:248685",
+      "itineraries": [
+        {
+          "branch_code": "",
+          "closest_stop": {
+            "city_name": "",
+            "global_stop_id": "NFTAMRNY:15",
+            "location_type": 0,
+            "parent_station": null,
+            "parent_station_global_stop_id": null,
+            "raw_stop_id": "R367",
+            "route_type": 0,
+            "rt_stop_id": "43529",
+            "stop_code": "43529",
+            "stop_lat": 42.954408055010724,
+            "stop_lon": -78.82025631402287,
+            "stop_name": "University Station",
+            "wheelchair_boarding": 1
+          },
+          "direction_headsign": "Canalside Station",
+          "direction_id": 0,
+          "headsign": "Canalside Station",
+          "merged_headsign": "Canalside Station",
+          "schedule_items": [
+            {
+              "arrival_time": 1780422240,
+              "departure_time": 1780422240,
+              "is_cancelled": false,
+              "is_real_time": false,
+              "rt_trip_id": "181",
+              "scheduled_arrival_time": 1780422240,
+              "scheduled_departure_time": 1780422240,
+              "trip_search_key": "NFTAMRNY:51648992:0:20:27",
+              "wheelchair_accessible": 1
+            },
+            {
+              "arrival_time": 1780423500,
+              "departure_time": 1780423500,
+              "is_cancelled": false,
+              "is_real_time": false,
+              "rt_trip_id": "182",
+              "scheduled_arrival_time": 1780423500,
+              "scheduled_departure_time": 1780423500,
+              "trip_search_key": "NFTAMRNY:51648992:0:20:28",
+              "wheelchair_accessible": 1
+            },
+            {
+              "arrival_time": 1780424640,
+              "departure_time": 1780424640,
+              "is_cancelled": false,
+              "is_real_time": false,
+              "rt_trip_id": "183",
+              "scheduled_arrival_time": 1780424640,
+              "scheduled_departure_time": 1780424640,
+              "trip_search_key": "NFTAMRNY:51648992:0:20:29",
+              "wheelchair_accessible": 1
+            }
+          ]
+        },
+        {
+          "branch_code": "",
+          "closest_stop": {
+            "city_name": "",
+            "global_stop_id": "NFTAMRNY:42",
+            "location_type": 0,
+            "parent_station": null,
+            "parent_station_global_stop_id": null,
+            "raw_stop_id": "R366",
+            "route_type": 0,
+            "rt_stop_id": "43528",
+            "stop_code": "43528",
+            "stop_lat": 42.95439006860401,
+            "stop_lon": -78.82015738878596,
+            "stop_name": "University Station",
+            "wheelchair_boarding": 1
+          },
+          "direction_headsign": "University Station",
+          "direction_id": 1,
+          "headsign": "University Station",
+          "merged_headsign": "University Station",
+          "schedule_items": []
+        }
+      ],
+      "mode_name": "Light rail",
+      "real_time_route_id": "145",
+      "route_color": "f06c00",
+      "route_display_short_name": {
+        "boxed_text": "",
+        "elements": [
+          "muni",
+          "",
+          null
+        ],
+        "route_name_redundancy": false
+      },
+      "route_image": "muni",
+      "route_long_name": "Metro Rail",
+      "route_network_id": "NFTA|Buffalo",
+      "route_network_name": "NFTA",
+      "route_short_name": "MR",
+      "route_text_color": "ffffff",
+      "route_timezone": "America/New_York",
+      "route_type": 0,
+      "sorting_key": "MR",
+      "tts_long_name": "Metro Rail",
+      "tts_short_name": "MR line",
+      "vehicle": {
+        "image": "muni",
+        "name": "train",
+        "name_inflection": "n"
+      }
+    },
+    {
+      "alerts": [],
+      "compact_display_short_name": {
+        "boxed_text": "",
+        "elements": [
+          null,
+          "47",
+          null
+        ],
+        "route_name_redundancy": false
+      },
+      "fares": [],
+      "global_route_id": "NFTANY:32170",
+      "itineraries": [
+        {
+          "branch_code": "",
+          "closest_stop": {
+            "city_name": "",
+            "global_stop_id": "NFTANY:43714",
+            "location_type": 0,
+            "parent_station": null,
+            "parent_station_global_stop_id": null,
+            "raw_stop_id": "31360",
+            "route_type": 3,
+            "rt_stop_id": "31360",
+            "stop_code": "31360",
+            "stop_lat": 42.95452496665434,
+            "stop_lon": -78.82046315770003,
+            "stop_name": "Main Street / University Station",
+            "wheelchair_boarding": 1
+          },
+          "direction_headsign": "University Station",
+          "direction_id": 0,
+          "headsign": "University Station",
+          "merged_headsign": "University Station",
+          "schedule_items": []
+        },
+        {
+          "branch_code": "",
+          "closest_stop": {
+            "city_name": "",
+            "global_stop_id": "NFTANY:43714",
+            "location_type": 0,
+            "parent_station": null,
+            "parent_station_global_stop_id": null,
+            "raw_stop_id": "31360",
+            "route_type": 3,
+            "rt_stop_id": "31360",
+            "stop_code": "31360",
+            "stop_lat": 42.95452496665434,
+            "stop_lon": -78.82046315770003,
+            "stop_name": "Main Street / University Station",
+            "wheelchair_boarding": 1
+          },
+          "direction_headsign": "Transit Eastern Hills",
+          "direction_id": 1,
+          "headsign": "Transit Eastern Hills",
+          "merged_headsign": "Transit Eastern Hills",
+          "schedule_items": [
+            {
+              "arrival_time": 1780423800,
+              "departure_time": 1780423800,
+              "is_cancelled": false,
+              "is_real_time": false,
+              "rt_trip_id": "4802794",
+              "scheduled_arrival_time": 1780423800,
+              "scheduled_departure_time": 1780423800,
+              "trip_search_key": "NFTANY:51742156:179:9:8",
+              "wheelchair_accessible": 1
+            },
+            {
+              "arrival_time": 1780427700,
+              "departure_time": 1780427700,
+              "is_cancelled": false,
+              "is_real_time": false,
+              "rt_trip_id": "4802795",
+              "scheduled_arrival_time": 1780427700,
+              "scheduled_departure_time": 1780427700,
+              "trip_search_key": "NFTANY:51742156:179:9:9",
+              "wheelchair_accessible": 1
+            },
+            {
+              "arrival_time": 1780431300,
+              "departure_time": 1780431300,
+              "is_cancelled": false,
+              "is_real_time": false,
+              "rt_trip_id": "4802796",
+              "scheduled_arrival_time": 1780431300,
+              "scheduled_departure_time": 1780431300,
+              "trip_search_key": "NFTANY:51742156:179:9:10",
+              "wheelchair_accessible": 1
+            }
+          ]
+        }
+      ],
+      "mode_name": "Bus",
+      "real_time_route_id": "47",
+      "route_color": "0096cb",
+      "route_display_short_name": {
+        "boxed_text": "",
+        "elements": [
+          null,
+          "47",
+          null
+        ],
+        "route_name_redundancy": false
+      },
+      "route_image": "",
+      "route_long_name": "Wehrle",
+      "route_network_id": "NFTA|Buffalo",
+      "route_network_name": "NFTA",
+      "route_short_name": "47",
+      "route_text_color": "ffffff",
+      "route_timezone": "America/New_York",
+      "route_type": 3,
+      "sorting_key": "47",
+      "tts_long_name": "Wehrle",
+      "tts_short_name": "47",
+      "vehicle": {
+        "image": "bus-new",
+        "name": "bus",
+        "name_inflection": "n"
+      }
+    },
+    {
+      "alerts": [
+        {
+          "active_periods": [
+            {
+              "end": 1780858825,
+              "start": 1780840801
+            }
+          ],
+          "cause": "OTHER_CAUSE",
+          "created_at": 1780410900,
+          "description": "Starting at 10am on Sunday June 7, the Buffalo Pride Parade will cause reroutes along Elmwood Avenue. Bus routes along Elmwood from Rockwell Road at Buffalo State down to Edward Street in Allentown will be rerouted until about 3pm.\nSee reroute map for more info...",
+          "effect": "DETOUR",
+          "informed_entities": [
+            {
+              "global_route_id": "NFTANY:32173",
+              "global_stop_id": "NFTANY:47330"
+            },
+            {
+              "global_route_id": "NFTANY:32173",
+              "global_stop_id": "NFTANY:47341"
+            },
+            {
+              "global_route_id": "NFTANY:32173",
+              "global_stop_id": "NFTANY:61430"
+            },
+            {
+              "global_route_id": "NFTANY:32173",
+              "global_stop_id": "NFTANY:47329"
+            }
+          ],
+          "severity": "Warning",
+          "title": "Pride Parade reroutes for 12,20,22,26,32 on June 7"
+        }
+      ],
+      "compact_display_short_name": {
+        "boxed_text": "",
+        "elements": [
+          null,
+          "5",
+          null
+        ],
+        "route_name_redundancy": false
+      },
+      "fares": [],
+      "global_route_id": "NFTANY:32173",
+      "itineraries": [
+        {
+          "branch_code": "",
+          "closest_stop": {
+            "city_name": "",
+            "global_stop_id": "NFTANY:43714",
+            "location_type": 0,
+            "parent_station": null,
+            "parent_station_global_stop_id": null,
+            "raw_stop_id": "31360",
+            "route_type": 3,
+            "rt_stop_id": "31360",
+            "stop_code": "31360",
+            "stop_lat": 42.95452496665434,
+            "stop_lon": -78.82046315770003,
+            "stop_name": "Main Street / University Station",
+            "wheelchair_boarding": 1
+          },
+          "direction_headsign": "Downtown",
+          "direction_id": 0,
+          "headsign": "Downtown",
+          "merged_headsign": "Downtown",
+          "schedule_items": [
+            {
+              "arrival_time": 1780422300,
+              "departure_time": 1780422300,
+              "is_cancelled": false,
+              "is_real_time": true,
+              "rt_trip_id": "4805571",
+              "scheduled_arrival_time": 1780422300,
+              "scheduled_departure_time": 1780422300,
+              "trip_search_key": "NFTANY:51742156:27:9:29",
+              "wheelchair_accessible": 1
+            },
+            {
+              "arrival_time": 1780423500,
+              "departure_time": 1780423500,
+              "is_cancelled": false,
+              "is_real_time": true,
+              "rt_trip_id": "4805543",
+              "scheduled_arrival_time": 1780423500,
+              "scheduled_departure_time": 1780423500,
+              "trip_search_key": "NFTANY:51742156:27:9:30",
+              "wheelchair_accessible": 1
+            },
+            {
+              "arrival_time": 1780424700,
+              "departure_time": 1780424700,
+              "is_cancelled": false,
+              "is_real_time": true,
+              "rt_trip_id": "4805570",
+              "scheduled_arrival_time": 1780424700,
+              "scheduled_departure_time": 1780424700,
+              "trip_search_key": "NFTANY:51742156:27:9:31",
+              "wheelchair_accessible": 1
+            }
+          ]
+        },
+        {
+          "branch_code": "S",
+          "closest_stop": {
+            "city_name": "",
+            "global_stop_id": "NFTANY:43714",
+            "location_type": 0,
+            "parent_station": null,
+            "parent_station_global_stop_id": null,
+            "raw_stop_id": "31360",
+            "route_type": 3,
+            "rt_stop_id": "31360",
+            "stop_code": "31360",
+            "stop_lat": 42.95452496665434,
+            "stop_lon": -78.82046315770003,
+            "stop_name": "Main Street / University Station",
+            "wheelchair_boarding": 1
+          },
+          "direction_headsign": "University Station",
+          "direction_id": 1,
+          "headsign": "University Station",
+          "merged_headsign": "University Station",
+          "schedule_items": []
+        }
+      ],
+      "mode_name": "Bus",
+      "real_time_route_id": "5",
+      "route_color": "0096cb",
+      "route_display_short_name": {
+        "boxed_text": "",
+        "elements": [
+          null,
+          "5",
+          null
+        ],
+        "route_name_redundancy": false
+      },
+      "route_image": "",
+      "route_long_name": "Niagara-Kenmore",
+      "route_network_id": "NFTA|Buffalo",
+      "route_network_name": "NFTA",
+      "route_short_name": "5",
+      "route_text_color": "ffffff",
+      "route_timezone": "America/New_York",
+      "route_type": 3,
+      "sorting_key": "5",
+      "tts_long_name": "Niagara-Kenmore",
+      "tts_short_name": "5",
+      "vehicle": {
+        "image": "bus-new",
+        "name": "bus",
+        "name_inflection": "n"
+      }
+    },
+    {
+      "alerts": [],
+      "compact_display_short_name": {
+        "boxed_text": "",
+        "elements": [
+          null,
+          "48",
+          null
+        ],
+        "route_name_redundancy": false
+      },
+      "fares": [],
+      "global_route_id": "NFTANY:32171",
+      "itineraries": [
+        {
+          "branch_code": "A",
+          "closest_stop": {
+            "city_name": "",
+            "global_stop_id": "NFTANY:60875",
+            "location_type": 0,
+            "parent_station": null,
+            "parent_station_global_stop_id": null,
+            "raw_stop_id": "31390",
+            "route_type": 3,
+            "rt_stop_id": "31390",
+            "stop_code": "31390",
+            "stop_lat": 42.95450698024763,
+            "stop_lon": -78.82071496739397,
+            "stop_name": "Main Street / University Station",
+            "wheelchair_boarding": 1
+          },
+          "direction_headsign": "University Station",
+          "direction_id": 0,
+          "headsign": "University Station",
+          "merged_headsign": "University Station",
+          "schedule_items": []
+        },
+        {
+          "branch_code": "",
+          "closest_stop": {
+            "city_name": "",
+            "global_stop_id": "NFTANY:60875",
+            "location_type": 0,
+            "parent_station": null,
+            "parent_station_global_stop_id": null,
+            "raw_stop_id": "31390",
+            "route_type": 3,
+            "rt_stop_id": "31390",
+            "stop_code": "31390",
+            "stop_lat": 42.95450698024763,
+            "stop_lon": -78.82071496739397,
+            "stop_name": "Main Street / University Station",
+            "wheelchair_boarding": 1
+          },
+          "direction_headsign": "Transit Eastern Hills",
+          "direction_id": 1,
+          "headsign": "Transit Eastern Hills",
+          "merged_headsign": "Transit Eastern Hills",
+          "schedule_items": [
+            {
+              "arrival_time": 1780422300,
+              "departure_time": 1780422300,
+              "is_cancelled": false,
+              "is_real_time": true,
+              "rt_trip_id": "4802828",
+              "scheduled_arrival_time": 1780422300,
+              "scheduled_departure_time": 1780422300,
+              "trip_search_key": "NFTANY:51742156:182:9:13",
+              "wheelchair_accessible": 1
+            },
+            {
+              "arrival_time": 1780425900,
+              "departure_time": 1780425900,
+              "is_cancelled": false,
+              "is_real_time": false,
+              "rt_trip_id": "4802829",
+              "scheduled_arrival_time": 1780425900,
+              "scheduled_departure_time": 1780425900,
+              "trip_search_key": "NFTANY:51742156:182:9:14",
+              "wheelchair_accessible": 1
+            },
+            {
+              "arrival_time": 1780429200,
+              "departure_time": 1780429200,
+              "is_cancelled": false,
+              "is_real_time": false,
+              "rt_trip_id": "4802830",
+              "scheduled_arrival_time": 1780429200,
+              "scheduled_departure_time": 1780429200,
+              "trip_search_key": "NFTANY:51742156:182:9:15",
+              "wheelchair_accessible": 1
+            }
+          ]
+        }
+      ],
+      "mode_name": "Bus",
+      "real_time_route_id": "48",
+      "route_color": "0096cb",
+      "route_display_short_name": {
+        "boxed_text": "",
+        "elements": [
+          null,
+          "48",
+          null
+        ],
+        "route_name_redundancy": false
+      },
+      "route_image": "",
+      "route_long_name": "Williamsville",
+      "route_network_id": "NFTA|Buffalo",
+      "route_network_name": "NFTA",
+      "route_short_name": "48",
+      "route_text_color": "ffffff",
+      "route_timezone": "America/New_York",
+      "route_type": 3,
+      "sorting_key": "48",
+      "tts_long_name": "Williamsville",
+      "tts_short_name": "48",
+      "vehicle": {
+        "image": "bus-new",
+        "name": "bus",
+        "name_inflection": "n"
+      }
+    },
+    {
+      "alerts": [],
+      "compact_display_short_name": {
+        "boxed_text": "",
+        "elements": [
+          null,
+          "49",
+          null
+        ],
+        "route_name_redundancy": false
+      },
+      "fares": [],
+      "global_route_id": "NFTANY:32172",
+      "itineraries": [
+        {
+          "branch_code": "",
+          "closest_stop": {
+            "city_name": "",
+            "global_stop_id": "NFTANY:60875",
+            "location_type": 0,
+            "parent_station": null,
+            "parent_station_global_stop_id": null,
+            "raw_stop_id": "31390",
+            "route_type": 3,
+            "rt_stop_id": "31390",
+            "stop_code": "31390",
+            "stop_lat": 42.95450698024763,
+            "stop_lon": -78.82071496739397,
+            "stop_name": "Main Street / University Station",
+            "wheelchair_boarding": 1
+          },
+          "direction_headsign": "University Station",
+          "direction_id": 0,
+          "headsign": "University Station",
+          "merged_headsign": "University Station",
+          "schedule_items": []
+        },
+        {
+          "branch_code": "",
+          "closest_stop": {
+            "city_name": "",
+            "global_stop_id": "NFTANY:60875",
+            "location_type": 0,
+            "parent_station": null,
+            "parent_station_global_stop_id": null,
+            "raw_stop_id": "31390",
+            "route_type": 3,
+            "rt_stop_id": "31390",
+            "stop_code": "31390",
+            "stop_lat": 42.95450698024763,
+            "stop_lon": -78.82071496739397,
+            "stop_name": "Main Street / University Station",
+            "wheelchair_boarding": 1
+          },
+          "direction_headsign": "Transit Eastern Hills",
+          "direction_id": 1,
+          "headsign": "Transit Eastern Hills",
+          "merged_headsign": "Transit Eastern Hills",
+          "schedule_items": [
+            {
+              "arrival_time": 1780424400,
+              "departure_time": 1780424400,
+              "is_cancelled": false,
+              "is_real_time": true,
+              "rt_trip_id": "4802724",
+              "scheduled_arrival_time": 1780424400,
+              "scheduled_departure_time": 1780424400,
+              "trip_search_key": "NFTANY:51742156:185:9:5",
+              "wheelchair_accessible": 1
+            },
+            {
+              "arrival_time": 1780429500,
+              "departure_time": 1780429500,
+              "is_cancelled": false,
+              "is_real_time": false,
+              "rt_trip_id": "4802725",
+              "scheduled_arrival_time": 1780429500,
+              "scheduled_departure_time": 1780429500,
+              "trip_search_key": "NFTANY:51742156:185:9:6",
+              "wheelchair_accessible": 1
+            },
+            {
+              "arrival_time": 1780434900,
+              "departure_time": 1780434900,
+              "is_cancelled": false,
+              "is_real_time": false,
+              "rt_trip_id": "4802726",
+              "scheduled_arrival_time": 1780434900,
+              "scheduled_departure_time": 1780434900,
+              "trip_search_key": "NFTANY:51742156:185:9:7",
+              "wheelchair_accessible": 1
+            }
+          ]
+        }
+      ],
+      "mode_name": "Bus",
+      "real_time_route_id": "49",
+      "route_color": "0096cb",
+      "route_display_short_name": {
+        "boxed_text": "",
+        "elements": [
+          null,
+          "49",
+          null
+        ],
+        "route_name_redundancy": false
+      },
+      "route_image": "",
+      "route_long_name": "East Amherst",
+      "route_network_id": "NFTA|Buffalo",
+      "route_network_name": "NFTA",
+      "route_short_name": "49",
+      "route_text_color": "ffffff",
+      "route_timezone": "America/New_York",
+      "route_type": 3,
+      "sorting_key": "49",
+      "tts_long_name": "East Amherst",
+      "tts_short_name": "49",
+      "vehicle": {
+        "image": "bus-new",
+        "name": "bus",
+        "name_inflection": "n"
+      }
+    },
+    {
+      "alerts": [
+        {
+          "active_periods": [
+            {
+              "end": 1780858825,
+              "start": 1780840801
+            }
+          ],
+          "cause": "OTHER_CAUSE",
+          "created_at": 1780410900,
+          "description": "Starting at 10am on Sunday June 7, the Buffalo Pride Parade will cause reroutes along Elmwood Avenue. Bus routes along Elmwood from Rockwell Road at Buffalo State down to Edward Street in Allentown will be rerouted until about 3pm.\nSee reroute map for more info...",
+          "effect": "DETOUR",
+          "informed_entities": [
+            {
+              "global_route_id": "NFTANY:32141",
+              "global_stop_id": "NFTANY:40462"
+            },
+            {
+              "global_route_id": "NFTANY:32141",
+              "global_stop_id": "NFTANY:40460"
+            },
+            {
+              "global_route_id": "NFTANY:32141",
+              "global_stop_id": "NFTANY:40461"
+            },
+            {
+              "global_route_id": "NFTANY:32141",
+              "global_stop_id": "NFTANY:40464"
+            }
+          ],
+          "severity": "Warning",
+          "title": "Pride Parade reroutes for 12,20,22,26,32 on June 7"
+        }
+      ],
+      "compact_display_short_name": {
+        "boxed_text": "",
+        "elements": [
+          null,
+          "12",
+          null
+        ],
+        "route_name_redundancy": false
+      },
+      "fares": [],
+      "global_route_id": "NFTANY:32141",
+      "itineraries": [
+        {
+          "branch_code": "",
+          "closest_stop": {
+            "city_name": "",
+            "global_stop_id": "NFTANY:40397",
+            "location_type": 0,
+            "parent_station": null,
+            "parent_station_global_stop_id": null,
+            "raw_stop_id": "31340",
+            "route_type": 3,
+            "rt_stop_id": "31340",
+            "stop_code": "31340",
+            "stop_lat": 42.95474979673821,
+            "stop_lon": -78.82016638198932,
+            "stop_name": "Main Street / University Station",
+            "wheelchair_boarding": 1
+          },
+          "direction_headsign": "Niagara Street",
+          "direction_id": 0,
+          "headsign": "Niagara Street",
+          "merged_headsign": "Niagara Street",
+          "schedule_items": [
+            {
+              "arrival_time": 1780421880,
+              "departure_time": 1780421880,
+              "is_cancelled": false,
+              "is_real_time": true,
+              "rt_trip_id": "4802934",
+              "scheduled_arrival_time": 1780421940,
+              "scheduled_departure_time": 1780421940,
+              "trip_search_key": "NFTANY:51742156:47:9:28",
+              "wheelchair_accessible": 1
+            },
+            {
+              "arrival_time": 1780423440,
+              "departure_time": 1780423440,
+              "is_cancelled": false,
+              "is_real_time": true,
+              "rt_trip_id": "4802944",
+              "scheduled_arrival_time": 1780423440,
+              "scheduled_departure_time": 1780423440,
+              "trip_search_key": "NFTANY:51742156:47:9:29",
+              "wheelchair_accessible": 1
+            },
+            {
+              "arrival_time": 1780424640,
+              "departure_time": 1780424640,
+              "is_cancelled": false,
+              "is_real_time": true,
+              "rt_trip_id": "4802941",
+              "scheduled_arrival_time": 1780424640,
+              "scheduled_departure_time": 1780424640,
+              "trip_search_key": "NFTANY:51742156:47:9:30",
+              "wheelchair_accessible": 1
+            }
+          ]
+        },
+        {
+          "branch_code": "",
+          "closest_stop": {
+            "city_name": "",
+            "global_stop_id": "NFTANY:40397",
+            "location_type": 0,
+            "parent_station": null,
+            "parent_station_global_stop_id": null,
+            "raw_stop_id": "31340",
+            "route_type": 3,
+            "rt_stop_id": "31340",
+            "stop_code": "31340",
+            "stop_lat": 42.95474979673821,
+            "stop_lon": -78.82016638198932,
+            "stop_name": "Main Street / University Station",
+            "wheelchair_boarding": 1
+          },
+          "direction_headsign": "Main - Bailey",
+          "direction_id": 1,
+          "headsign": "Main - Bailey",
+          "merged_headsign": "Main - Bailey",
+          "schedule_items": [
+            {
+              "arrival_time": 1780421940,
+              "departure_time": 1780421940,
+              "is_cancelled": false,
+              "is_real_time": true,
+              "rt_trip_id": "4802904",
+              "scheduled_arrival_time": 1780422000,
+              "scheduled_departure_time": 1780422000,
+              "trip_search_key": "NFTANY:51742156:48:9:21",
+              "wheelchair_accessible": 1
+            },
+            {
+              "arrival_time": 1780423440,
+              "departure_time": 1780423440,
+              "is_cancelled": false,
+              "is_real_time": true,
+              "rt_trip_id": "4802898",
+              "scheduled_arrival_time": 1780423560,
+              "scheduled_departure_time": 1780423560,
+              "trip_search_key": "NFTANY:51742156:48:9:22",
+              "wheelchair_accessible": 1
+            },
+            {
+              "arrival_time": 1780424760,
+              "departure_time": 1780424760,
+              "is_cancelled": false,
+              "is_real_time": false,
+              "rt_trip_id": "4802930",
+              "scheduled_arrival_time": 1780424760,
+              "scheduled_departure_time": 1780424760,
+              "trip_search_key": "NFTANY:51742156:48:9:23",
+              "wheelchair_accessible": 1
+            }
+          ]
+        }
+      ],
+      "mode_name": "Bus",
+      "real_time_route_id": "12",
+      "route_color": "0096cb",
+      "route_display_short_name": {
+        "boxed_text": "",
+        "elements": [
+          null,
+          "12",
+          null
+        ],
+        "route_name_redundancy": false
+      },
+      "route_image": "",
+      "route_long_name": "Utica",
+      "route_network_id": "NFTA|Buffalo",
+      "route_network_name": "NFTA",
+      "route_short_name": "12",
+      "route_text_color": "ffffff",
+      "route_timezone": "America/New_York",
+      "route_type": 3,
+      "sorting_key": "12",
+      "tts_long_name": "Utica",
+      "tts_short_name": "12",
+      "vehicle": {
+        "image": "bus-new",
+        "name": "bus",
+        "name_inflection": "n"
+      }
+    },
+    {
+      "alerts": [],
+      "compact_display_short_name": {
+        "boxed_text": "",
+        "elements": [
+          null,
+          "44",
+          null
+        ],
+        "route_name_redundancy": false
+      },
+      "fares": [],
+      "global_route_id": "NFTANY:32167",
+      "itineraries": [
+        {
+          "branch_code": "B",
+          "closest_stop": {
+            "city_name": "",
+            "global_stop_id": "NFTANY:43491",
+            "location_type": 0,
+            "parent_station": null,
+            "parent_station_global_stop_id": null,
+            "raw_stop_id": "31380",
+            "route_type": 3,
+            "rt_stop_id": "31380",
+            "stop_code": "31380",
+            "stop_lat": 42.954623891891245,
+            "stop_lon": -78.82107469552817,
+            "stop_name": "Main Street / University Station",
+            "wheelchair_boarding": 1
+          },
+          "direction_headsign": "University Station",
+          "direction_id": 0,
+          "headsign": "University Station",
+          "merged_headsign": "University Station",
+          "schedule_items": []
+        },
+        {
+          "branch_code": "B",
+          "closest_stop": {
+            "city_name": "",
+            "global_stop_id": "NFTANY:43491",
+            "location_type": 0,
+            "parent_station": null,
+            "parent_station_global_stop_id": null,
+            "raw_stop_id": "31380",
+            "route_type": 3,
+            "rt_stop_id": "31380",
+            "stop_code": "31380",
+            "stop_lat": 42.954623891891245,
+            "stop_lon": -78.82107469552817,
+            "stop_name": "Main Street / University Station",
+            "wheelchair_boarding": 1
+          },
+          "direction_headsign": "Lockport",
+          "direction_id": 1,
+          "headsign": "Lockport",
+          "merged_headsign": "Lockport",
+          "schedule_items": [
+            {
+              "arrival_time": 1780424400,
+              "departure_time": 1780424400,
+              "is_cancelled": false,
+              "is_real_time": false,
+              "rt_trip_id": "4802360",
+              "scheduled_arrival_time": 1780424400,
+              "scheduled_departure_time": 1780424400,
+              "trip_search_key": "NFTANY:51742156:168:9:10",
+              "wheelchair_accessible": 1
+            },
+            {
+              "arrival_time": 1780429200,
+              "departure_time": 1780429200,
+              "is_cancelled": false,
+              "is_real_time": false,
+              "rt_trip_id": "4802363",
+              "scheduled_arrival_time": 1780429200,
+              "scheduled_departure_time": 1780429200,
+              "trip_search_key": "NFTANY:51742156:168:9:11",
+              "wheelchair_accessible": 1
+            },
+            {
+              "arrival_time": 1780433400,
+              "departure_time": 1780433400,
+              "is_cancelled": false,
+              "is_real_time": false,
+              "rt_trip_id": "4802364",
+              "scheduled_arrival_time": 1780433400,
+              "scheduled_departure_time": 1780433400,
+              "trip_search_key": "NFTANY:51742156:168:9:12",
+              "wheelchair_accessible": 1
+            }
+          ]
+        }
+      ],
+      "mode_name": "Bus",
+      "real_time_route_id": "44A",
+      "route_color": "7f2f7b",
+      "route_display_short_name": {
+        "boxed_text": "",
+        "elements": [
+          null,
+          "44",
+          null
+        ],
+        "route_name_redundancy": false
+      },
+      "route_image": "",
+      "route_long_name": "Lockport",
+      "route_network_id": "NFTA|Buffalo",
+      "route_network_name": "NFTA",
+      "route_short_name": "44",
+      "route_text_color": "ffffff",
+      "route_timezone": "America/New_York",
+      "route_type": 3,
+      "sorting_key": "44",
+      "tts_long_name": "Lockport",
+      "tts_short_name": "44",
+      "vehicle": {
+        "image": "bus-new",
+        "name": "bus",
+        "name_inflection": "n"
+      }
+    },
+    {
+      "alerts": [],
+      "compact_display_short_name": {
+        "boxed_text": "",
+        "elements": [
+          null,
+          "34",
+          null
+        ],
+        "route_name_redundancy": false
+      },
+      "fares": [],
+      "global_route_id": "NFTANY:32161",
+      "itineraries": [
+        {
+          "branch_code": "A",
+          "closest_stop": {
+            "city_name": "",
+            "global_stop_id": "NFTANY:42810",
+            "location_type": 0,
+            "parent_station": null,
+            "parent_station_global_stop_id": null,
+            "raw_stop_id": "31370",
+            "route_type": 3,
+            "rt_stop_id": "31370",
+            "stop_code": "31370",
+            "stop_lat": 42.95522643651603,
+            "stop_lon": -78.82093979747785,
+            "stop_name": "Main Street / University Station",
+            "wheelchair_boarding": 1
+          },
+          "direction_headsign": "University Station",
+          "direction_id": 0,
+          "headsign": "University Station",
+          "merged_headsign": "University Station",
+          "schedule_items": []
+        },
+        {
+          "branch_code": "",
+          "closest_stop": {
+            "city_name": "",
+            "global_stop_id": "NFTANY:42810",
+            "location_type": 0,
+            "parent_station": null,
+            "parent_station_global_stop_id": null,
+            "raw_stop_id": "31370",
+            "route_type": 3,
+            "rt_stop_id": "31370",
+            "stop_code": "31370",
+            "stop_lat": 42.95522643651603,
+            "stop_lon": -78.82093979747785,
+            "stop_name": "Main Street / University Station",
+            "wheelchair_boarding": 1
+          },
+          "direction_headsign": "Amherst Town Center",
+          "direction_id": 1,
+          "headsign": "Amherst Town Center",
+          "merged_headsign": "Amherst Town Center",
+          "schedule_items": [
+            {
+              "arrival_time": 1780423500,
+              "departure_time": 1780423500,
+              "is_cancelled": false,
+              "is_real_time": true,
+              "rt_trip_id": "4805256",
+              "scheduled_arrival_time": 1780423500,
+              "scheduled_departure_time": 1780423500,
+              "trip_search_key": "NFTANY:51742156:160:9:14",
+              "wheelchair_accessible": 1
+            },
+            {
+              "arrival_time": 1780425000,
+              "departure_time": 1780425000,
+              "is_cancelled": false,
+              "is_real_time": true,
+              "rt_trip_id": "4805290",
+              "scheduled_arrival_time": 1780425000,
+              "scheduled_departure_time": 1780425000,
+              "trip_search_key": "NFTANY:51742156:160:9:15",
+              "wheelchair_accessible": 1
+            },
+            {
+              "arrival_time": 1780426500,
+              "departure_time": 1780426500,
+              "is_cancelled": false,
+              "is_real_time": true,
+              "rt_trip_id": "4805276",
+              "scheduled_arrival_time": 1780426500,
+              "scheduled_departure_time": 1780426500,
+              "trip_search_key": "NFTANY:51742156:161:9:2",
+              "wheelchair_accessible": 1
+            }
+          ]
+        }
+      ],
+      "mode_name": "Bus",
+      "real_time_route_id": "34",
+      "route_color": "0096cb",
+      "route_display_short_name": {
+        "boxed_text": "",
+        "elements": [
+          null,
+          "34",
+          null
+        ],
+        "route_name_redundancy": false
+      },
+      "route_image": "",
+      "route_long_name": "Niagara Falls Boulevard",
+      "route_network_id": "NFTA|Buffalo",
+      "route_network_name": "NFTA",
+      "route_short_name": "34",
+      "route_text_color": "ffffff",
+      "route_timezone": "America/New_York",
+      "route_type": 3,
+      "sorting_key": "34",
+      "tts_long_name": "Niagara Falls Boulevard",
+      "tts_short_name": "34",
+      "vehicle": {
+        "image": "bus-new",
+        "name": "bus",
+        "name_inflection": "n"
+      }
+    },
+    {
+      "alerts": [
+        {
+          "active_periods": [
+            {
+              "end": 1780858825,
+              "start": 1780840801
+            }
+          ],
+          "cause": "OTHER_CAUSE",
+          "created_at": 1780410900,
+          "description": "Starting at 10am on Sunday June 7, the Buffalo Pride Parade will cause reroutes along Elmwood Avenue. Bus routes along Elmwood from Rockwell Road at Buffalo State down to Edward Street in Allentown will be rerouted until about 3pm.\nSee reroute map for more info...",
+          "effect": "DETOUR",
+          "informed_entities": [
+            {
+              "global_route_id": "NFTANY:32147",
+              "global_stop_id": "NFTANY:47197"
+            },
+            {
+              "global_route_id": "NFTANY:32147",
+              "global_stop_id": "NFTANY:47148"
+            },
+            {
+              "global_route_id": "NFTANY:32147",
+              "global_stop_id": "NFTANY:47201"
+            },
+            {
+              "global_route_id": "NFTANY:32147",
+              "global_stop_id": "NFTANY:47196"
+            },
+            {
+              "global_route_id": "NFTANY:32147",
+              "global_stop_id": "NFTANY:47199"
+            },
+            {
+              "global_route_id": "NFTANY:32147",
+              "global_stop_id": "NFTANY:47198"
+            }
+          ],
+          "severity": "Warning",
+          "title": "Pride Parade reroutes for 12,20,22,26,32 on June 7"
+        }
+      ],
+      "compact_display_short_name": {
+        "boxed_text": "",
+        "elements": [
+          null,
+          "19",
+          null
+        ],
+        "route_name_redundancy": false
+      },
+      "fares": [],
+      "global_route_id": "NFTANY:32147",
+      "itineraries": [
+        {
+          "branch_code": "",
+          "closest_stop": {
+            "city_name": "",
+            "global_stop_id": "NFTANY:41338",
+            "location_type": 0,
+            "parent_station": null,
+            "parent_station_global_stop_id": null,
+            "raw_stop_id": "31350",
+            "route_type": 3,
+            "rt_stop_id": "31350",
+            "stop_code": "31350",
+            "stop_lat": 42.95501959283886,
+            "stop_lon": -78.8202293344128,
+            "stop_name": "Main Street / University Station",
+            "wheelchair_boarding": 1
+          },
+          "direction_headsign": "Bailey - Abbott",
+          "direction_id": 0,
+          "headsign": "Bailey - Abbott",
+          "merged_headsign": "Bailey - Abbott",
+          "schedule_items": [
+            {
+              "arrival_time": 1780422000,
+              "departure_time": 1780422000,
+              "is_cancelled": false,
+              "is_real_time": true,
+              "rt_trip_id": "4800979",
+              "scheduled_arrival_time": 1780422000,
+              "scheduled_departure_time": 1780422000,
+              "trip_search_key": "NFTANY:51742156:92:9:20",
+              "wheelchair_accessible": 1
+            },
+            {
+              "arrival_time": 1780423200,
+              "departure_time": 1780423200,
+              "is_cancelled": false,
+              "is_real_time": true,
+              "rt_trip_id": "4800980",
+              "scheduled_arrival_time": 1780423200,
+              "scheduled_departure_time": 1780423200,
+              "trip_search_key": "NFTANY:51742156:92:9:21",
+              "wheelchair_accessible": 1
+            },
+            {
+              "arrival_time": 1780424400,
+              "departure_time": 1780424400,
+              "is_cancelled": false,
+              "is_real_time": true,
+              "rt_trip_id": "4800981",
+              "scheduled_arrival_time": 1780424400,
+              "scheduled_departure_time": 1780424400,
+              "trip_search_key": "NFTANY:51742156:92:9:22",
+              "wheelchair_accessible": 1
+            }
+          ]
+        },
+        {
+          "branch_code": "S",
+          "closest_stop": {
+            "city_name": "",
+            "global_stop_id": "NFTANY:41338",
+            "location_type": 0,
+            "parent_station": null,
+            "parent_station_global_stop_id": null,
+            "raw_stop_id": "31350",
+            "route_type": 3,
+            "rt_stop_id": "31350",
+            "stop_code": "31350",
+            "stop_lat": 42.95501959283886,
+            "stop_lon": -78.8202293344128,
+            "stop_name": "Main Street / University Station",
+            "wheelchair_boarding": 1
+          },
+          "direction_headsign": "University Station",
+          "direction_id": 1,
+          "headsign": "University Station",
+          "merged_headsign": "University Station",
+          "schedule_items": []
+        }
+      ],
+      "mode_name": "Bus",
+      "real_time_route_id": "19",
+      "route_color": "0096cb",
+      "route_display_short_name": {
+        "boxed_text": "",
+        "elements": [
+          null,
+          "19",
+          null
+        ],
+        "route_name_redundancy": false
+      },
+      "route_image": "",
+      "route_long_name": "Bailey",
+      "route_network_id": "NFTA|Buffalo",
+      "route_network_name": "NFTA",
+      "route_short_name": "19",
+      "route_text_color": "ffffff",
+      "route_timezone": "America/New_York",
+      "route_type": 3,
+      "sorting_key": "19",
+      "tts_long_name": "Bailey",
+      "tts_short_name": "19",
+      "vehicle": {
+        "image": "bus-new",
+        "name": "bus",
+        "name_inflection": "n"
+      }
+    },
+    {
+      "alerts": [],
+      "compact_display_short_name": {
+        "boxed_text": "",
+        "elements": [
+          null,
+          "13",
+          null
+        ],
+        "route_name_redundancy": false
+      },
+      "fares": [],
+      "global_route_id": "NFTANY:32142",
+      "itineraries": [
+        {
+          "branch_code": "",
+          "closest_stop": {
+            "city_name": "",
+            "global_stop_id": "NFTANY:40559",
+            "location_type": 0,
+            "parent_station": null,
+            "parent_station_global_stop_id": null,
+            "raw_stop_id": "31400",
+            "route_type": 3,
+            "rt_stop_id": "31400",
+            "stop_code": "31400",
+            "stop_lat": 42.95492966080531,
+            "stop_lon": -78.82020235480273,
+            "stop_name": "Main Street / University Station",
+            "wheelchair_boarding": 1
+          },
+          "direction_headsign": "Utica Station",
+          "direction_id": 0,
+          "headsign": "Utica Station",
+          "merged_headsign": "Utica Station",
+          "schedule_items": [
+            {
+              "arrival_time": 1780422000,
+              "departure_time": 1780422000,
+              "is_cancelled": false,
+              "is_real_time": true,
+              "rt_trip_id": "4802457",
+              "scheduled_arrival_time": 1780422000,
+              "scheduled_departure_time": 1780422000,
+              "trip_search_key": "NFTANY:51742156:55:9:18",
+              "wheelchair_accessible": 1
+            },
+            {
+              "arrival_time": 1780423800,
+              "departure_time": 1780423800,
+              "is_cancelled": false,
+              "is_real_time": false,
+              "rt_trip_id": "4802458",
+              "scheduled_arrival_time": 1780423800,
+              "scheduled_departure_time": 1780423800,
+              "trip_search_key": "NFTANY:51742156:55:9:19",
+              "wheelchair_accessible": 1
+            },
+            {
+              "arrival_time": 1780425600,
+              "departure_time": 1780425600,
+              "is_cancelled": false,
+              "is_real_time": false,
+              "rt_trip_id": "4802459",
+              "scheduled_arrival_time": 1780425600,
+              "scheduled_departure_time": 1780425600,
+              "trip_search_key": "NFTANY:51742156:55:9:20",
+              "wheelchair_accessible": 1
+            }
+          ]
+        },
+        {
+          "branch_code": "S",
+          "closest_stop": {
+            "city_name": "",
+            "global_stop_id": "NFTANY:40559",
+            "location_type": 0,
+            "parent_station": null,
+            "parent_station_global_stop_id": null,
+            "raw_stop_id": "31400",
+            "route_type": 3,
+            "rt_stop_id": "31400",
+            "stop_code": "31400",
+            "stop_lat": 42.95492966080531,
+            "stop_lon": -78.82020235480273,
+            "stop_name": "Main Street / University Station",
+            "wheelchair_boarding": 1
+          },
+          "direction_headsign": "University Station",
+          "direction_id": 1,
+          "headsign": "University Station",
+          "merged_headsign": "University Station",
+          "schedule_items": []
+        }
+      ],
+      "mode_name": "Bus",
+      "real_time_route_id": "13",
+      "route_color": "0096cb",
+      "route_display_short_name": {
+        "boxed_text": "",
+        "elements": [
+          null,
+          "13",
+          null
+        ],
+        "route_name_redundancy": false
+      },
+      "route_image": "",
+      "route_long_name": "Kensington",
+      "route_network_id": "NFTA|Buffalo",
+      "route_network_name": "NFTA",
+      "route_short_name": "13",
+      "route_text_color": "ffffff",
+      "route_timezone": "America/New_York",
+      "route_type": 3,
+      "sorting_key": "13",
+      "tts_long_name": "Kensington",
+      "tts_short_name": "13",
+      "vehicle": {
+        "image": "bus-new",
+        "name": "bus",
+        "name_inflection": "n"
+      }
+    },
+    {
+      "alerts": [],
+      "compact_display_short_name": {
+        "boxed_text": "",
+        "elements": [
+          null,
+          "8",
+          null
+        ],
+        "route_name_redundancy": false
+      },
+      "fares": [],
+      "global_route_id": "NFTANY:32194",
+      "itineraries": [
+        {
+          "branch_code": "",
+          "closest_stop": {
+            "city_name": "",
+            "global_stop_id": "NFTANY:40559",
+            "location_type": 0,
+            "parent_station": null,
+            "parent_station_global_stop_id": null,
+            "raw_stop_id": "31400",
+            "route_type": 3,
+            "rt_stop_id": "31400",
+            "stop_code": "31400",
+            "stop_lat": 42.95492966080531,
+            "stop_lon": -78.82020235480273,
+            "stop_name": "Main Street / University Station",
+            "wheelchair_boarding": 1
+          },
+          "direction_headsign": "Downtown",
+          "direction_id": 0,
+          "headsign": "Downtown",
+          "merged_headsign": "Downtown",
+          "schedule_items": [
+            {
+              "arrival_time": 1780422540,
+              "departure_time": 1780422540,
+              "is_cancelled": false,
+              "is_real_time": true,
+              "rt_trip_id": "4802394",
+              "scheduled_arrival_time": 1780422540,
+              "scheduled_departure_time": 1780422540,
+              "trip_search_key": "NFTANY:51742156:32769:9:22",
+              "wheelchair_accessible": 1
+            },
+            {
+              "arrival_time": 1780424340,
+              "departure_time": 1780424340,
+              "is_cancelled": false,
+              "is_real_time": false,
+              "rt_trip_id": "4802395",
+              "scheduled_arrival_time": 1780424340,
+              "scheduled_departure_time": 1780424340,
+              "trip_search_key": "NFTANY:51742156:32769:9:23",
+              "wheelchair_accessible": 1
+            },
+            {
+              "arrival_time": 1780426140,
+              "departure_time": 1780426140,
+              "is_cancelled": false,
+              "is_real_time": true,
+              "rt_trip_id": "4802396",
+              "scheduled_arrival_time": 1780426140,
+              "scheduled_departure_time": 1780426140,
+              "trip_search_key": "NFTANY:51742156:32769:9:24",
+              "wheelchair_accessible": 1
+            }
+          ]
+        },
+        {
+          "branch_code": "",
+          "closest_stop": {
+            "city_name": "",
+            "global_stop_id": "NFTANY:40559",
+            "location_type": 0,
+            "parent_station": null,
+            "parent_station_global_stop_id": null,
+            "raw_stop_id": "31400",
+            "route_type": 3,
+            "rt_stop_id": "31400",
+            "stop_code": "31400",
+            "stop_lat": 42.95492966080531,
+            "stop_lon": -78.82020235480273,
+            "stop_name": "Main Street / University Station",
+            "wheelchair_boarding": 1
+          },
+          "direction_headsign": "Main - Bailey",
+          "direction_id": 1,
+          "headsign": "Main - Bailey",
+          "merged_headsign": "Main - Bailey",
+          "schedule_items": [
+            {
+              "arrival_time": 1780423140,
+              "departure_time": 1780423140,
+              "is_cancelled": false,
+              "is_real_time": true,
+              "rt_trip_id": "4802420",
+              "scheduled_arrival_time": 1780422960,
+              "scheduled_departure_time": 1780422960,
+              "trip_search_key": "NFTANY:51742156:32771:9:19",
+              "wheelchair_accessible": 1
+            },
+            {
+              "arrival_time": 1780424160,
+              "departure_time": 1780424160,
+              "is_cancelled": false,
+              "is_real_time": true,
+              "rt_trip_id": "4802421",
+              "scheduled_arrival_time": 1780424160,
+              "scheduled_departure_time": 1780424160,
+              "trip_search_key": "NFTANY:51742156:32771:9:20",
+              "wheelchair_accessible": 1
+            },
+            {
+              "arrival_time": 1780426020,
+              "departure_time": 1780426020,
+              "is_cancelled": false,
+              "is_real_time": true,
+              "rt_trip_id": "4802422",
+              "scheduled_arrival_time": 1780426020,
+              "scheduled_departure_time": 1780426020,
+              "trip_search_key": "NFTANY:51742156:32771:9:21",
+              "wheelchair_accessible": 1
+            }
+          ]
+        }
+      ],
+      "mode_name": "Bus",
+      "real_time_route_id": "8",
+      "route_color": "0096cb",
+      "route_display_short_name": {
+        "boxed_text": "",
+        "elements": [
+          null,
+          "8",
+          null
+        ],
+        "route_name_redundancy": false
+      },
+      "route_image": "",
+      "route_long_name": "Main",
+      "route_network_id": "NFTA|Buffalo",
+      "route_network_name": "NFTA",
+      "route_short_name": "8",
+      "route_text_color": "ffffff",
+      "route_timezone": "America/New_York",
+      "route_type": 3,
+      "sorting_key": "8",
+      "tts_long_name": "Main",
+      "tts_short_name": "8",
+      "vehicle": {
+        "image": "bus-new",
+        "name": "bus",
+        "name_inflection": "n"
+      }
+    }
+  ]
+}

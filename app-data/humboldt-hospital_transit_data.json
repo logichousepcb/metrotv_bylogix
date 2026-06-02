@@ -1,0 +1,13 @@
+{
+  "station": {
+    "name": "Humboldt Hospital",
+    "latitude": "42.92751",
+    "longitude": "-78.85154",
+    "distance": ".2",
+    "routes": [
+      "145",
+      "8"
+    ]
+  },
+  "routes": []
+}

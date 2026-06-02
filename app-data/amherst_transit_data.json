@@ -1,0 +1,13 @@
+{
+  "station": {
+    "name": "Amherst",
+    "latitude": "49.93985",
+    "longitude": "-78.83836",
+    "distance": ".2",
+    "routes": [
+      "145",
+      "8"
+    ]
+  },
+  "routes": []
+}

@@ -1,0 +1,13 @@
+{
+  "station": {
+    "name": "Fountain Plaza",
+    "latitude": "42.88943",
+    "longitude": "-78.87316",
+    "distance": ".2",
+    "routes": [
+      "145",
+      "8"
+    ]
+  },
+  "routes": []
+}

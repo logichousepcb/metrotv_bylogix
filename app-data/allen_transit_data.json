@@ -1,0 +1,218 @@
+{
+  "station": {
+    "name": "Allen",
+    "latitude": "42.89951",
+    "longitude": "-78.86994",
+    "distance": ".2",
+    "routes": [
+      "145",
+      "8",
+      "14",
+      "16"
+    ]
+  },
+  "routes": [
+    {
+      "alerts": [],
+      "compact_display_short_name": {
+        "boxed_text": "",
+        "elements": [
+          null,
+          "14",
+          null
+        ],
+        "route_name_redundancy": false
+      },
+      "fares": [],
+      "global_route_id": "NFTANY:32143",
+      "itineraries": [
+        {
+          "branch_code": "B",
+          "closest_stop": {
+            "city_name": "",
+            "global_stop_id": "NFTANY:60698",
+            "location_type": 0,
+            "parent_station": null,
+            "parent_station_global_stop_id": null,
+            "raw_stop_id": "58917",
+            "route_type": 3,
+            "rt_stop_id": "58917",
+            "stop_code": "58917",
+            "stop_lat": 42.8986232146001,
+            "stop_lon": -78.86667922974101,
+            "stop_name": "Carlton Street / Ellicott Street",
+            "wheelchair_boarding": 1
+          },
+          "direction_headsign": "Downtown",
+          "direction_id": 0,
+          "headsign": "Buffalo - Niagara Medical Campus",
+          "merged_headsign": "Buffalo - Niagara Medical Campus",
+          "schedule_items": [
+            {
+              "arrival_time": 1777647240,
+              "departure_time": 1777647240,
+              "is_cancelled": false,
+              "is_real_time": true,
+              "rt_trip_id": "4801051",
+              "scheduled_arrival_time": 1777647240,
+              "scheduled_departure_time": 1777647240,
+              "trip_search_key": "NFTANY:51457670:59:10:3",
+              "wheelchair_accessible": 1
+            },
+            {
+              "arrival_time": 1777651140,
+              "departure_time": 1777651140,
+              "is_cancelled": false,
+              "is_real_time": false,
+              "rt_trip_id": "4801052",
+              "scheduled_arrival_time": 1777651140,
+              "scheduled_departure_time": 1777651140,
+              "trip_search_key": "NFTANY:51457670:61:10:0",
+              "wheelchair_accessible": 1
+            },
+            {
+              "arrival_time": 1777654740,
+              "departure_time": 1777654740,
+              "is_cancelled": false,
+              "is_real_time": false,
+              "rt_trip_id": "4801069",
+              "scheduled_arrival_time": 1777654740,
+              "scheduled_departure_time": 1777654740,
+              "trip_search_key": "NFTANY:51457670:59:10:4",
+              "wheelchair_accessible": 1
+            }
+          ]
+        }
+      ],
+      "mode_name": "Bus",
+      "real_time_route_id": "14",
+      "route_color": "0096cb",
+      "route_display_short_name": {
+        "boxed_text": "",
+        "elements": [
+          null,
+          "14",
+          null
+        ],
+        "route_name_redundancy": false
+      },
+      "route_image": "",
+      "route_long_name": "Abbott",
+      "route_network_id": "NFTA|Buffalo",
+      "route_network_name": "NFTA",
+      "route_short_name": "14",
+      "route_text_color": "ffffff",
+      "route_timezone": "America/New_York",
+      "route_type": 3,
+      "sorting_key": "14",
+      "tts_long_name": "Abbott",
+      "tts_short_name": "14",
+      "vehicle": {
+        "image": "bus-new",
+        "name": "bus",
+        "name_inflection": "n"
+      }
+    },
+    {
+      "alerts": [],
+      "compact_display_short_name": {
+        "boxed_text": "",
+        "elements": [
+          null,
+          "16",
+          null
+        ],
+        "route_name_redundancy": false
+      },
+      "fares": [],
+      "global_route_id": "NFTANY:32145",
+      "itineraries": [
+        {
+          "branch_code": "",
+          "closest_stop": {
+            "city_name": "",
+            "global_stop_id": "NFTANY:60698",
+            "location_type": 0,
+            "parent_station": null,
+            "parent_station_global_stop_id": null,
+            "raw_stop_id": "58917",
+            "route_type": 3,
+            "rt_stop_id": "58917",
+            "stop_code": "58917",
+            "stop_lat": 42.8986232146001,
+            "stop_lon": -78.86667922974101,
+            "stop_name": "Carlton Street / Ellicott Street",
+            "wheelchair_boarding": 1
+          },
+          "direction_headsign": "Downtown",
+          "direction_id": 0,
+          "headsign": "Buffalo - Niagara Medical Campus",
+          "merged_headsign": "Buffalo - Niagara Medical Campus",
+          "schedule_items": [
+            {
+              "arrival_time": 1777641600,
+              "departure_time": 1777641600,
+              "is_cancelled": false,
+              "is_real_time": true,
+              "rt_trip_id": "4801180",
+              "scheduled_arrival_time": 1777641540,
+              "scheduled_departure_time": 1777641540,
+              "trip_search_key": "NFTANY:51457670:84:10:2",
+              "wheelchair_accessible": 1
+            },
+            {
+              "arrival_time": 1777644660,
+              "departure_time": 1777644660,
+              "is_cancelled": false,
+              "is_real_time": true,
+              "rt_trip_id": "4801196",
+              "scheduled_arrival_time": 1777644660,
+              "scheduled_departure_time": 1777644660,
+              "trip_search_key": "NFTANY:51457670:84:10:3",
+              "wheelchair_accessible": 1
+            },
+            {
+              "arrival_time": 1777647840,
+              "departure_time": 1777647840,
+              "is_cancelled": false,
+              "is_real_time": false,
+              "rt_trip_id": "4801197",
+              "scheduled_arrival_time": 1777647840,
+              "scheduled_departure_time": 1777647840,
+              "trip_search_key": "NFTANY:51457670:84:10:4",
+              "wheelchair_accessible": 1
+            }
+          ]
+        }
+      ],
+      "mode_name": "Bus",
+      "real_time_route_id": "16",
+      "route_color": "0096cb",
+      "route_display_short_name": {
+        "boxed_text": "",
+        "elements": [
+          null,
+          "16",
+          null
+        ],
+        "route_name_redundancy": false
+      },
+      "route_image": "",
+      "route_long_name": "South Park",
+      "route_network_id": "NFTA|Buffalo",
+      "route_network_name": "NFTA",
+      "route_short_name": "16",
+      "route_text_color": "ffffff",
+      "route_timezone": "America/New_York",
+      "route_type": 3,
+      "sorting_key": "16",
+      "tts_long_name": "South Park",
+      "tts_short_name": "16",
+      "vehicle": {
+        "image": "bus-new",
+        "name": "bus",
+        "name_inflection": "n"
+      }
+    }
+  ]
+}

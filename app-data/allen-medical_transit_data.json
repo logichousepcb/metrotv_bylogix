@@ -1,0 +1,15 @@
+{
+  "station": {
+    "name": "Allen Medical",
+    "latitude": "42.89951",
+    "longitude": "-78.86994",
+    "distance": ".2",
+    "routes": [
+      "145",
+      "8",
+      "14",
+      "16"
+    ]
+  },
+  "routes": []
+}

@@ -1,0 +1,13 @@
+{
+  "station": {
+    "name": "Delavan-Canisius College",
+    "latitude": "42.92236",
+    "longitude": "-78.85671",
+    "distance": ".2",
+    "routes": [
+      "145",
+      "8"
+    ]
+  },
+  "routes": []
+}

@@ -1,0 +1,138 @@
+{
+  "station": {
+    "name": "University",
+    "latitude": "42.9547",
+    "longitude": "-78.8206",
+    "distance": ".2",
+    "routes": [
+      "145",
+      "8",
+      "19",
+      "44",
+      "5",
+      "47",
+      "48"
+    ]
+  },
+  "routes": [
+    {
+      "route_id": "145",
+      "route_short_name": "",
+      "route_long_name": "METRO RAIL",
+      "real_time_route_id": "145",
+      "route_color": "",
+      "mode_name": "Light Rail",
+      "alerts": [],
+      "itineraries": [
+        {
+          "direction_headsign": "UNIVERSITY STATION",
+          "headsign": "UNIVERSITY STATION",
+          "closest_stop": {
+            "stop_id": "R366",
+            "stop_name": "University Station",
+            "stop_lat": 42.954389,
+            "stop_lon": -78.820153
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777022940,
+              "scheduled_arrival_time": 1777022940,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "371"
+            },
+            {
+              "arrival_time": 1777024140,
+              "scheduled_arrival_time": 1777024140,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "372"
+            },
+            {
+              "arrival_time": 1777025400,
+              "scheduled_arrival_time": 1777025400,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "373"
+            },
+            {
+              "arrival_time": 1777026600,
+              "scheduled_arrival_time": 1777026600,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "374"
+            },
+            {
+              "arrival_time": 1777027800,
+              "scheduled_arrival_time": 1777027800,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "375"
+            },
+            {
+              "arrival_time": 1777029000,
+              "scheduled_arrival_time": 1777029000,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "376"
+            }
+          ]
+        },
+        {
+          "direction_headsign": "DL&W STATION",
+          "headsign": "DL&W STATION",
+          "closest_stop": {
+            "stop_id": "R367",
+            "stop_name": "University Station",
+            "stop_lat": 42.954409,
+            "stop_lon": -78.820253
+          },
+          "schedule_items": [
+            {
+              "arrival_time": 1777023840,
+              "scheduled_arrival_time": 1777023840,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "157"
+            },
+            {
+              "arrival_time": 1777025040,
+              "scheduled_arrival_time": 1777025040,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "158"
+            },
+            {
+              "arrival_time": 1777026240,
+              "scheduled_arrival_time": 1777026240,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "159"
+            },
+            {
+              "arrival_time": 1777027440,
+              "scheduled_arrival_time": 1777027440,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "160"
+            },
+            {
+              "arrival_time": 1777028640,
+              "scheduled_arrival_time": 1777028640,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "161"
+            },
+            {
+              "arrival_time": 1777029840,
+              "scheduled_arrival_time": 1777029840,
+              "delay_seconds": 0,
+              "is_real_time": false,
+              "trip_id": "162"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

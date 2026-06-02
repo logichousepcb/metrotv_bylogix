@@ -1,0 +1,13 @@
+{
+  "station": {
+    "name": "Seneca",
+    "latitude": "42.88100",
+    "longitude": "-78.87602",
+    "distance": ".2",
+    "routes": [
+      "145",
+      "8"
+    ]
+  },
+  "routes": []
+}

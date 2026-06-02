@@ -1,0 +1,197 @@
+[
+    {
+        "name": "University",
+        "longitude": "-78.8206",
+        "latitude": "42.9547",
+        "distance": ".2",
+        "scroll_speed": 3,
+        "rounded": true,
+        "alert": true,
+        "verticle": false,
+        "routes": [
+            "145",
+            "8",
+            "5",
+            "12",
+            "13",
+            "19",
+            "34",
+            "44",
+            "47",
+            "48",
+            "49",
+            "81"
+        ]
+    },
+    {
+        "name": "Allen Medical",
+        "longitude": "-78.86994",
+        "latitude": "42.89951",
+        "distance": ".2",
+        "scroll_speed": 2,
+        "rounded": true,
+        "alert": true,
+        "verticle": false,
+        "routes": [
+            "145",
+            "8",
+            "14",
+            "16"
+        ]
+    },
+    {
+        "name": "Utica",
+        "longitude": "-78.865591",
+        "latitude": "49.91173",
+        "distance": ".2",
+        "scroll_speed": 2,
+        "rounded": true,
+        "alert": true,
+        "verticle": false,
+        "routes": [
+            "145",
+            "8",
+            "12",
+            "13"
+        ]
+    },
+    {
+        "name": "Amherst",
+        "longitude": "-78.83836",
+        "latitude": "49.93985",
+        "distance": ".2",
+        "scroll_speed": 2,
+        "rounded": true,
+        "alert": true,
+        "verticle": false,
+        "routes": [
+            "145",
+            "8"
+        ]
+    },
+    {
+        "name": "DL&W",
+        "longitude": "-78.87689",
+        "latitude": "42.87421",
+        "distance": ".2",
+        "scroll_speed": 2,
+        "rounded": true,
+        "alert": true,
+        "verticle": false,
+        "routes": [
+            "145"
+        ]
+    },
+    {
+        "name": "Canalside",
+        "longitude": "-78.87680",
+        "latitude": "42.87805",
+        "distance": ".2",
+        "scroll_speed": 2,
+        "rounded": true,
+        "alert": true,
+        "verticle": false,
+        "routes": [
+            "145",
+            "8"
+        ]
+    },
+    {
+        "name": "Seneca",
+        "longitude": "-78.87602",
+        "latitude": "42.88100",
+        "distance": ".2",
+        "scroll_speed": 2,
+        "rounded": true,
+        "alert": true,
+        "verticle": false,
+        "routes": [
+            "145",
+            "8"
+        ]
+    },
+    {
+        "name": "Church Street",
+        "longitude": "-78.87518",
+        "latitude": "42.88353",
+        "distance": ".2",
+        "scroll_speed": 2,
+        "rounded": true,
+        "alert": true,
+        "verticle": false,
+        "routes": [
+            "145",
+            "8"
+        ]
+    },
+    {
+        "name": "Fountain Plaza",
+        "longitude": "-78.87316",
+        "latitude": "42.88943",
+        "distance": ".2",
+        "scroll_speed": 2,
+        "rounded": true,
+        "alert": true,
+        "verticle": false,
+        "routes": [
+            "145",
+            "8"
+        ]
+    },
+    {
+        "name": "Summer-Best",
+        "longitude": "-78.86761",
+        "latitude": "42.90471",
+        "distance": ".2",
+        "scroll_speed": 2,
+        "rounded": true,
+        "alert": true,
+        "verticle": false,
+        "routes": [
+            "145",
+            "8"
+        ]
+    },
+    {
+        "name": "LaSalle",
+        "longitude": "-78.82998",
+        "latitude": "42.94804",
+        "distance": ".2",
+        "scroll_speed": 2,
+        "rounded": true,
+        "alert": true,
+        "verticle": false,
+        "routes": [
+            "145",
+            "8"
+        ]
+    },
+    {
+        "name": "Humboldt Hospital",
+        "longitude": "-78.85154",
+        "latitude": "42.92751",
+        "distance": ".2",
+        "scroll_speed": 2,
+        "rounded": true,
+        "alert": true,
+        "verticle": false,
+        "routes": [
+            "145",
+            "8"
+        ]
+    },
+    {
+        "name": "Delavan-Canisius College",
+        "longitude": "-78.85671",
+        "latitude": "42.92236",
+        "distance": ".2",
+        "scroll_speed": 2,
+        "rounded": false,
+        "alert": true,
+        "verticle": false,
+        "routes": [
+            "145",
+            "8"
+        ]
+    }
+]

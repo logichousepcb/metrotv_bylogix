@@ -1,0 +1,13 @@
+{
+  "station": {
+    "name": "Canalside",
+    "latitude": "42.87805",
+    "longitude": "-78.87680",
+    "distance": ".2",
+    "routes": [
+      "145",
+      "8"
+    ]
+  },
+  "routes": []
+}

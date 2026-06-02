@@ -1,0 +1,13 @@
+{
+  "station": {
+    "name": "LaSalle",
+    "latitude": "42.94804",
+    "longitude": "-78.82998",
+    "distance": ".2",
+    "routes": [
+      "145",
+      "8"
+    ]
+  },
+  "routes": []
+}
