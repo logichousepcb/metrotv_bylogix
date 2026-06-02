@@ -1,0 +1,171 @@
+NFTA Transit TV
+Function Reference for nfta-transit-tv.html
+
+Purpose
+This page renders an NFTA transit departure board. It can either:
+- show a list of available stations when no station_trigger query parameter is present, or
+- show a live departure board for a single station when station_trigger is present.
+
+Primary data sources
+- /newnfta-transit-tv.json: station board configuration records
+- /uploads/app-data/stations.json: per-station display settings
+- station_settings_url from the selected station config: live route/departure data for the board
+
+Global behavior
+- Reads station_trigger from the page URL.
+- Updates the station editor link so it opens the selected station when a trigger is present.
+- Loads station configuration, station display settings, and live board data.
+- Re-renders the board every 30 seconds.
+- Refreshes the clock and displayed departure minutes every second.
+- Automatically scrolls the board on desktop when there are more routes than fit on screen.
+
+Function reference
+
+mins(epoch)
+- Converts a Unix timestamp in seconds into a whole number of minutes from now.
+- Returns 0 for times that are already in the past.
+- Used when rendering and refreshing countdown values.
+
+color(route)
+- Chooses the CSS color class for a route card.
+- Returns rail for light rail routes, purple for routes using the configured purple route color, and bus for everything else.
+
+normalizeRouteKey(value)
+- Normalizes a route identifier for comparisons.
+- Trims whitespace, converts to lowercase, and safely handles empty values.
+
+splitPinnedRoute(routes)
+- Separates one configured pinned route from the rest of the route list.
+- Matches the pinned route against either route_short_name or real_time_route_id.
+- Returns an object with pinnedRoute, remainingRoutes, and hasPinnedRoute.
+
+renderTimes(items)
+- Builds the HTML for the departure time boxes shown under each direction.
+- Limits the number of displayed trips using stationConfig.trip_count when available.
+- Falls back to DEFAULT_TRIP_COUNT when the configuration is missing or invalid.
+- Returns an en dash when there are no schedule items.
+
+render(route, options = {})
+- Builds the full HTML card for a route.
+- Renders the route number, route name, optional alert, and up to two directions with departure times.
+- Adds the pinned-route styling when options.isPinned is true.
+
+showMessage(text)
+- Displays the message banner and inserts the supplied text.
+- Used for load failures, missing data, and empty-board states.
+
+hideMessage()
+- Clears the message banner text and hides the banner.
+
+updateMessageHeight()
+- Measures the visible message banner and writes its height into the --message-height CSS variable.
+- Keeps the grid height correct when the message banner appears or disappears.
+
+stopAutoScroll()
+- Cancels the current auto-scroll timer if one is running.
+
+scheduleAutoScroll(delay = AUTO_SCROLL_INTERVAL)
+- Resets the auto-scroll timer and schedules the next scroll step.
+- Uses a configurable delay so the board can pause before scrolling starts or restarts.
+
+runAutoScrollStep()
+- Performs one step of the board auto-scroll behavior.
+- Stops scrolling on mobile widths.
+- Resets to the top when the content is shorter than the visible grid.
+- Wraps the scroll position when duplicated content is being used to create a continuous loop.
+
+startAutoScroll()
+- Resets the grid scroll position to the top and begins the auto-scroll cycle.
+- Used after the board is rendered and after window resize events.
+
+refreshDepartureMinutes()
+- Recalculates every visible countdown value using the current time.
+- Updates all elements with a data-arrival-epoch attribute.
+
+normalizeStationConfig(payload)
+- Normalizes station configuration payloads into a plain array.
+- Accepts either a raw array or an object with a stations array.
+- Returns an empty array for unsupported payload shapes.
+
+slugifyStationName(value)
+- Converts a station name into a lowercase URL-style slug.
+- Replaces non-alphanumeric characters with hyphens and trims leading or trailing hyphens.
+- Falls back to station when the result would otherwise be empty.
+
+clampScrollSpeed(value)
+- Validates and constrains the configured scroll speed.
+- Returns a rounded value between 1 and 5.
+- Falls back to 2 when the input is not numeric.
+
+updateAutoScrollSpeed()
+- Reads the station setting for scroll_speed and converts it into the actual pixel step used by auto-scroll.
+- Stores the result in the global autoScrollStep variable.
+
+parseStationBoolean(value)
+- Interprets station setting values as booleans.
+- Accepts native booleans and string-like truthy values such as 1, true, yes, and on.
+
+updateCardShape()
+- Applies the station rounded setting to the route cards.
+- Writes either 18px or 0px to the --card-radius CSS variable.
+
+getFetchCandidates(url)
+- Produces a list of possible fetch paths for the same resource.
+- Keeps absolute URLs unchanged.
+- For relative or root-relative paths, tries both versions so the page can recover from path formatting differences.
+
+fetchJsonWithFallback(url, notFoundMessage)
+- Attempts to fetch JSON from each candidate URL returned by getFetchCandidates().
+- Uses cache: no-store so each request gets fresh data.
+- Throws a descriptive error when none of the candidates succeed.
+
+buildStationUrl(trigger)
+- Builds a URL for the current page with station_trigger set to the provided value.
+- Used when generating links in the station selection view.
+
+showStationList(stations)
+- Switches the page into station selection mode.
+- Stops auto-scroll, clears route looping state, and renders one card-style link per station.
+- Updates the page title and top bar title to Select a Station.
+
+getResolvedStationTitle(data)
+- Chooses the title shown in the browser tab and top bar.
+- Prefers stationConfig.station_name, then data.station.name, and finally falls back to NFTA Transit TV.
+
+loadStationConfig()
+- Loads the station board configuration file.
+- Normalizes and stores the full station list in stationConfigs.
+- When a station_trigger is present, finds the matching station configuration, validates required fields, stores it in stationConfig, and updates the page title.
+- Returns null when no station_trigger is provided.
+
+loadStationSettings()
+- Loads the station display settings from stations.json.
+- Matches the active station by comparing the trigger to a slugified station name.
+- Updates auto-scroll speed and card shape based on the matched station settings.
+
+loadBoardData()
+- Loads the live board JSON using stationConfig.station_settings_url.
+- Throws an error when the selected station does not define that URL.
+
+load()
+- Main page controller.
+- Ensures configuration and settings are loaded.
+- Shows the station list when no station_trigger was supplied.
+- Loads live route data for the selected station.
+- Filters routes to the allowed list configured for the station while still preserving the pinned route.
+- Separates the pinned route, renders the board, and shows a friendly message when no departures are available.
+- Duplicates the non-pinned route markup when needed so desktop auto-scroll can loop smoothly.
+- Handles load errors by showing the message banner and stopping auto-scroll.
+
+clock()
+- Updates the time shown in the top-right corner of the page.
+- Formats the time using the browser locale with hour and minute only.
+
+Startup timers and event hooks
+- setInterval(clock, 1000): refreshes the displayed clock every second.
+- setInterval(refreshDepartureMinutes, 1000): keeps countdown values current every second.
+- clock(): renders the initial clock value immediately.
+- updateMessageHeight(): initializes the message height CSS variable.
+- load(): performs the first full page load.
+- setInterval(load, 30000): reloads board data every 30 seconds.
+- window.addEventListener("resize", startAutoScroll): restarts scroll positioning after window size changes.

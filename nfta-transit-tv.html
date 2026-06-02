@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NFTA Transit TV</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #dfe3e6;
+  height: 100vh;
+  overflow: hidden;
+}
+:root {
+  --topbar-height: 72px;
+  --board-gap: 6px;
+  --board-padding: 8px;
+  --message-height: 0px;
+  --card-radius: 0px;
+  --row-height: calc((100vh - var(--topbar-height) - (var(--board-padding) * 2) - (var(--board-gap) * 3)) / 4);
+}
+.topbar {
+  background: #2fb36d;
+  color: #fff;
+  height: var(--topbar-height);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  position: relative;
+}
+.topbar .time {
+  position: absolute;
+  right: 12px;
+  font-size: 24px;
+}
+.topbar .settings-link {
+  position: absolute;
+  left: 12px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 30px;
+  line-height: 1;
+  width: 44px;
+  height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+}
+.topbar .settings-link:hover,
+.topbar .settings-link:focus-visible {
+  background: rgba(255,255,255,.16);
+}
+.topbar .title-wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+}
+.topbar .brand-badge {
+  height: 40px;
+  width: auto;
+  display: block;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--board-gap);
+  padding: var(--board-padding);
+  height: calc(100vh - var(--topbar-height) - var(--message-height));
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: none;
+  align-content: start;
+}
+.grid::-webkit-scrollbar {
+  display: none;
+}
+.station-list {
+  align-content: start;
+}
+.station-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  min-height: auto;
+  color: #0f3140;
+  background: #ffffff;
+  border: 2px solid rgba(47, 179, 109, 0.22);
+  text-decoration: none;
+  box-shadow: 0 8px 20px rgba(15, 49, 64, 0.08);
+}
+.station-link:hover,
+.station-link:focus-visible {
+  border-color: rgba(47, 179, 109, 0.6);
+  box-shadow: 0 10px 24px rgba(15, 49, 64, 0.14);
+}
+.station-link-name {
+  font-size: clamp(1.6rem, 2.4vw, 2.4rem);
+  font-weight: 700;
+}
+.station-link-trigger {
+  font-size: clamp(1rem, 1.2vw, 1.2rem);
+  color: #49636e;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+}
+.station-link-arrow {
+  font-size: clamp(1.6rem, 2.2vw, 2.1rem);
+  color: #2fb36d;
+  flex: 0 0 auto;
+}
+.card {
+  color: #fff;
+  padding: 10px 16px;
+  display: grid;
+  grid-template-columns: minmax(240px, 320px) 1fr;
+  gap: 16px;
+  align-items: center;
+  min-height: var(--row-height);
+  box-sizing: border-box;
+  border-radius: var(--card-radius);
+}
+.card.pinned-route {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  box-shadow: 0 10px 26px rgba(0,0,0,.25);
+}
+.route-pin {
+  display: inline-block;
+  margin-bottom: 8px;
+  font-size: clamp(0.8rem, 0.95vw, 0.95rem);
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  background: rgba(0,0,0,.26);
+  padding: 4px 8px;
+  border-radius: 999px;
+}
+.bus { background: #0c93d8; }
+.rail { background: #e67e22; }
+.purple { background: #8e2a8c; }
+.route-main {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  min-width: 0;
+}
+.route-meta {
+  min-width: 0;
+}
+.route-number {
+  font-size: clamp(3rem, 4.4vw, 4.8rem);
+  font-weight: 700;
+  line-height: 1;
+  flex: 0 0 auto;
+}
+.route-name {
+  font-size: clamp(1.35rem, 2vw, 2.2rem);
+  font-weight: 700;
+  line-height: 1.2;
+}
+.alert {
+  font-size: clamp(0.95rem, 1.1vw, 1.1rem);
+  background: rgba(0,0,0,.2);
+  padding: 6px 8px;
+  margin-top: 8px;
+  display: inline-block;
+}
+.directions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+.dir {
+  min-width: 0;
+  border-left: 1px solid rgba(255,255,255,.28);
+  padding-left: 14px;
+}
+.dir-name {
+  font-weight: 700;
+  font-size: clamp(1.15rem, 1.6vw, 1.75rem);
+  line-height: 1.15;
+}
+.times {
+  display: flex;
+  gap: 16px;
+  margin-top: 8px;
+  flex-wrap: wrap;
+}
+.timebox {
+  text-align: center;
+  min-width: 64px;
+}
+.time {
+  font-size: clamp(2rem, 3vw, 3.2rem);
+  font-weight: 700;
+  line-height: 1;
+}
+.min {
+  font-size: clamp(0.95rem, 1vw, 1.1rem);
+}
+.message {
+  margin: 8px 8px 0;
+  padding: 12px;
+  background: #fff4d6;
+  color: #5d4300;
+  border: 1px solid #e5c35a;
+}
+@media(max-width:900px) {
+  body {
+    overflow: auto;
+  }
+  .card {
+    grid-template-columns: 1fr;
+    gap: 8px;
+    min-height: auto;
+  }
+  .directions {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+  .dir {
+    border-left: 0;
+    border-top: 1px solid rgba(255,255,255,.28);
+    padding-left: 0;
+    padding-top: 6px;
+  }
+  .grid {
+    height: auto;
+    overflow: visible;
+  }
+}
+@media(max-width:500px) {
+  .route-main {
+    align-items: flex-start;
+  }
+  .route-number {
+    font-size: 2.4rem;
+  }
+  .time {
+    font-size: 1.9rem;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="topbar">
+  <a class="settings-link" id="settingsLink" href="/nfta_transit_tv_station_editor.php" aria-label="Open station editor" title="Station editor">&#9881;</a>
+  <div class="title-wrap">
+    <img class="brand-badge" src="/Transit-App/transit-api-badge.svg" alt="Transit API badge">
+    <span id="stationTitle">NFTA Transit TV</span>
+  </div>
+  <div class="time" id="clock"></div>
+</div>
+
+<div id="message" class="message" hidden></div>
+<div id="grid" class="grid"></div>
+
+<script>
+const STATION_CONFIG_URL = "/newnfta-transit-tv.json";
+const STATIONS_URL = "/uploads/app-data/stations.json";
+const DEFAULT_TRIP_COUNT = 3;
+const BASE_AUTO_SCROLL_STEP = 1;
+const AUTO_SCROLL_INTERVAL = 45;
+const AUTO_SCROLL_PAUSE = 2200;
+const params = new URLSearchParams(window.location.search);
+const stationTrigger = (params.get("station_trigger") || "").trim().toLowerCase();
+let autoScrollTimer = null;
+let routeLoopHeight = 0;
+let stationConfig = null;
+let stationConfigs = [];
+let stationSettings = null;
+let autoScrollStep = BASE_AUTO_SCROLL_STEP;
+
+if (stationTrigger) {
+  document.getElementById("settingsLink").setAttribute(
+    "href",
+    `/nfta_transit_tv_station_editor.php?station_trigger=${encodeURIComponent(stationTrigger)}`
+  );
+}
+
+function mins(epoch) {
+  return Math.max(0, Math.round((epoch * 1000 - Date.now()) / 60000));
+}
+
+function color(route) {
+  if (route.mode_name === "Light Rail") return "rail";
+  if (route.route_color === "7f2f7b") return "purple";
+  return "bus";
+}
+
+function normalizeRouteKey(value) {
+  return String(value || "").trim().toLowerCase();
+}
+
+function splitPinnedRoute(routes) {
+  const pinnedRouteValue = normalizeRouteKey(stationConfig?.pinned_route);
+  if (!pinnedRouteValue) {
+    return { pinnedRoute: null, remainingRoutes: routes, hasPinnedRoute: false };
+  }
+
+  let pinnedRoute = null;
+  const remainingRoutes = [];
+
+  routes.forEach(route => {
+    const shortName = normalizeRouteKey(route?.route_short_name);
+    const routeId = normalizeRouteKey(route?.real_time_route_id);
+    const isPinnedMatch = shortName === pinnedRouteValue || routeId === pinnedRouteValue;
+
+    if (!pinnedRoute && isPinnedMatch) {
+      pinnedRoute = route;
+      return;
+    }
+
+    remainingRoutes.push(route);
+  });
+
+  return { pinnedRoute, remainingRoutes, hasPinnedRoute: Boolean(pinnedRoute) };
+}
+
+function renderTimes(items) {
+  if (!items || !items.length) return "–";
+  const tripCount = (stationConfig && Number.isFinite(Number(stationConfig.trip_count)) && Number(stationConfig.trip_count) >= 1)
+    ? Math.round(Number(stationConfig.trip_count))
+    : DEFAULT_TRIP_COUNT;
+  return items.slice(0, tripCount).map(t => `
+    <div class="timebox">
+      <div class="time" data-arrival-epoch="${t.arrival_time}">${mins(t.arrival_time)}</div>
+      <div class="min">min</div>
+    </div>
+  `).join("");
+}
+
+function render(route, options = {}) {
+  const isPinned = Boolean(options.isPinned);
+  const alert = route.alerts?.[0];
+  const visibleItineraries = (route.itineraries || []).filter(i =>
+    Array.isArray(i.schedule_items) && i.schedule_items.length > 0
+  ).slice(0, 2);
+
+  return `
+  <div class="card ${color(route)}${isPinned ? " pinned-route" : ""}">
+    <div class="route-main">
+      <div class="route-number">${route.route_short_name || route.real_time_route_id || ""}</div>
+      <div class="route-meta">
+        ${isPinned ? `<div class="route-pin">Pinned Route</div>` : ""}
+        <div class="route-name">${route.route_long_name || ""}</div>
+      ${alert ? `<div class="alert">${alert.title || ""}</div>` : ""}
+      </div>
+    </div>
+    <div class="directions">
+      ${visibleItineraries.map(i => `
+        <div class="dir">
+          <div class="dir-name">${i.direction_headsign || i.headsign || ""}</div>
+          <div class="times">${renderTimes(i.schedule_items || [])}</div>
+        </div>
+      `).join("")}
+    </div>
+  </div>
+  `;
+}
+
+function showMessage(text) {
+  const element = document.getElementById("message");
+  element.textContent = text;
+  element.hidden = false;
+}
+
+function hideMessage() {
+  const element = document.getElementById("message");
+  element.textContent = "";
+  element.hidden = true;
+}
+
+function updateMessageHeight() {
+  const message = document.getElementById("message");
+  const height = !message.hidden ? message.offsetHeight + 8 : 0;
+  document.documentElement.style.setProperty("--message-height", `${height}px`);
+}
+
+function stopAutoScroll() {
+  if (autoScrollTimer) {
+    window.clearTimeout(autoScrollTimer);
+    autoScrollTimer = null;
+  }
+}
+
+function scheduleAutoScroll(delay = AUTO_SCROLL_INTERVAL) {
+  stopAutoScroll();
+  autoScrollTimer = window.setTimeout(runAutoScrollStep, delay);
+}
+
+function runAutoScrollStep() {
+  const grid = document.getElementById("grid");
+  if (!grid || window.innerWidth <= 900) {
+    stopAutoScroll();
+    return;
+  }
+
+  if (routeLoopHeight <= grid.clientHeight) {
+    grid.scrollTop = 0;
+    scheduleAutoScroll(AUTO_SCROLL_PAUSE);
+    return;
+  }
+
+  const nextScrollTop = grid.scrollTop + autoScrollStep;
+  if (nextScrollTop >= routeLoopHeight) {
+    grid.scrollTop = nextScrollTop - routeLoopHeight;
+  } else {
+    grid.scrollTop = nextScrollTop;
+  }
+
+  scheduleAutoScroll();
+}
+
+function startAutoScroll() {
+  const grid = document.getElementById("grid");
+  if (!grid) {
+    return;
+  }
+
+  grid.scrollTop = 0;
+  scheduleAutoScroll(AUTO_SCROLL_PAUSE);
+}
+
+function refreshDepartureMinutes() {
+  document.querySelectorAll(".time[data-arrival-epoch]").forEach(element => {
+    const epoch = Number(element.dataset.arrivalEpoch || "0");
+    if (!Number.isFinite(epoch) || epoch <= 0) {
+      return;
+    }
+
+    element.textContent = String(mins(epoch));
+  });
+}
+
+function normalizeStationConfig(payload) {
+  if (Array.isArray(payload)) {
+    return payload;
+  }
+  if (Array.isArray(payload?.stations)) {
+    return payload.stations;
+  }
+  return [];
+}
+
+function slugifyStationName(value) {
+  return String(value || "")
+    .trim()
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "") || "station";
+}
+
+function clampScrollSpeed(value) {
+  const numericValue = Number(value);
+  if (!Number.isFinite(numericValue)) {
+    return 2;
+  }
+
+  return Math.min(5, Math.max(1, Math.round(numericValue)));
+}
+
+function updateAutoScrollSpeed() {
+  const scrollSpeed = clampScrollSpeed(stationSettings?.scroll_speed ?? 2);
+  autoScrollStep = BASE_AUTO_SCROLL_STEP * (scrollSpeed / 2);
+}
+
+function parseStationBoolean(value) {
+  if (typeof value === "boolean") {
+    return value;
+  }
+
+  const normalizedValue = String(value || "").trim().toLowerCase();
+  return ["1", "true", "yes", "on"].includes(normalizedValue);
+}
+
+function updateCardShape() {
+  const isRounded = parseStationBoolean(stationSettings?.rounded ?? false);
+  document.documentElement.style.setProperty("--card-radius", isRounded ? "18px" : "0px");
+}
+
+function getFetchCandidates(url) {
+  if (!url) {
+    return [];
+  }
+
+  if (/^[a-z]+:\/\//i.test(url)) {
+    return [url];
+  }
+
+  const candidates = [url];
+  if (url.startsWith("/")) {
+    candidates.push(url.slice(1));
+  } else {
+    candidates.push(`/${url}`);
+  }
+
+  return [...new Set(candidates)];
+}
+
+async function fetchJsonWithFallback(url, notFoundMessage) {
+  const candidates = getFetchCandidates(url);
+
+  for (const candidate of candidates) {
+    const response = await fetch(candidate, { cache: "no-store" });
+    if (response.ok) {
+      return response.json();
+    }
+  }
+
+  throw new Error(notFoundMessage);
+}
+
+function buildStationUrl(trigger) {
+  const url = new URL(window.location.href);
+  url.searchParams.set("station_trigger", trigger);
+  return `${url.pathname}${url.search}`;
+}
+
+function showStationList(stations) {
+  stopAutoScroll();
+  routeLoopHeight = 0;
+
+  const grid = document.getElementById("grid");
+  grid.classList.add("station-list");
+  grid.scrollTop = 0;
+  grid.innerHTML = stations.map(station => `
+    <a class="card station-link" href="${buildStationUrl(station.station_trigger)}">
+      <div>
+        <div class="station-link-name">${station.station_name || station.station_trigger || "Unnamed Station"}</div>
+        <div class="station-link-trigger">${station.station_trigger || "no trigger"}</div>
+      </div>
+      <div class="station-link-arrow">&rsaquo;</div>
+    </a>
+  `).join("");
+
+  hideMessage();
+  document.title = "Select a Station";
+  document.getElementById("stationTitle").textContent = "Select a Station";
+  updateMessageHeight();
+}
+
+function getResolvedStationTitle(data) {
+  const configuredName = stationConfig?.station_name || data?.station?.name;
+  return configuredName ? `${configuredName} Transit Board` : "NFTA Transit TV";
+}
+
+async function loadStationConfig() {
+  const payload = await fetchJsonWithFallback(
+    STATION_CONFIG_URL,
+    "Station configuration file was not found."
+  );
+  stationConfigs = normalizeStationConfig(payload);
+
+  if (!stationTrigger) {
+    return null;
+  }
+
+  const match = stationConfigs.find(station =>
+    String(station.station_trigger || "").trim().toLowerCase() === stationTrigger
+  );
+
+  if (!match) {
+    throw new Error(`No station configuration was found for trigger: ${stationTrigger}`);
+  }
+
+  if (!match.station_settings_url) {
+    throw new Error(`Station settings URL is missing for trigger: ${stationTrigger}`);
+  }
+
+  stationConfig = match;
+  const title = getResolvedStationTitle();
+  document.title = title;
+  document.getElementById("stationTitle").textContent = title;
+  return match;
+}
+
+async function loadStationSettings() {
+  const payload = await fetchJsonWithFallback(
+    STATIONS_URL,
+    "Station settings file was not found."
+  );
+  const stations = normalizeStationConfig(payload);
+
+  if (!stationTrigger) {
+    stationSettings = null;
+    updateAutoScrollSpeed();
+    updateCardShape();
+    return null;
+  }
+
+  stationSettings = stations.find(station =>
+    slugifyStationName(station.name) === stationTrigger
+  ) || null;
+  updateAutoScrollSpeed();
+  updateCardShape();
+  return stationSettings;
+}
+
+async function loadBoardData() {
+  if (!stationConfig?.station_settings_url) {
+    throw new Error("Station settings URL is not configured.");
+  }
+
+  return fetchJsonWithFallback(
+    stationConfig.station_settings_url,
+    "Station transit data file was not found. Check station_settings_url."
+  );
+}
+
+async function load() {
+  try {
+    if (!stationConfig) {
+      await loadStationConfig();
+    }
+    await loadStationSettings();
+
+    if (!stationTrigger) {
+      if (!stationConfigs.length) {
+        throw new Error("No station configurations were found.");
+      }
+
+      showStationList(stationConfigs);
+      return;
+    }
+
+    const data = await loadBoardData();
+    const title = getResolvedStationTitle(data);
+    document.title = title;
+    document.getElementById("stationTitle").textContent = title;
+
+    let routes = Array.isArray(data.routes) ? data.routes : [];
+    const pinnedRouteKey = normalizeRouteKey(stationConfig?.pinned_route);
+    const allowedRoutes = Array.isArray(stationConfig?.routes) && stationConfig.routes.length > 0
+      ? stationConfig.routes.map(r => normalizeRouteKey(r))
+      : null;
+    if (allowedRoutes) {
+      routes = routes.filter(r => {
+        const shortName = normalizeRouteKey(r.route_short_name);
+        const rtId = normalizeRouteKey(r.real_time_route_id);
+        const inAllowedList = allowedRoutes.includes(shortName) || allowedRoutes.includes(rtId);
+        const isPinnedRoute = pinnedRouteKey !== "" && (shortName === pinnedRouteKey || rtId === pinnedRouteKey);
+        return inAllowedList || isPinnedRoute;
+      });
+    }
+
+    const { pinnedRoute, remainingRoutes, hasPinnedRoute } = splitPinnedRoute(routes);
+
+    hideMessage();
+    const grid = document.getElementById("grid");
+    grid.classList.remove("station-list");
+
+    const pinnedMarkup = pinnedRoute ? render(pinnedRoute, { isPinned: true }) : "";
+    const routeMarkup = remainingRoutes.map(r => render(r)).join("");
+    const combinedMarkup = pinnedMarkup + routeMarkup;
+
+    if (!combinedMarkup) {
+      showMessage("No route departures are available for this station right now.");
+      grid.innerHTML = "";
+      updateMessageHeight();
+      routeLoopHeight = 0;
+      stopAutoScroll();
+      return;
+    }
+
+    grid.innerHTML = combinedMarkup;
+    updateMessageHeight();
+    refreshDepartureMinutes();
+
+    routeLoopHeight = Math.max(0, grid.scrollHeight);
+    if (window.innerWidth > 900 && routeLoopHeight > grid.clientHeight && routeMarkup && !hasPinnedRoute) {
+      grid.innerHTML = routeMarkup + routeMarkup;
+      refreshDepartureMinutes();
+    }
+
+    startAutoScroll();
+  } catch (error) {
+    showMessage(error.message || "Unable to load station transit data.");
+    updateMessageHeight();
+    routeLoopHeight = 0;
+    stopAutoScroll();
+  }
+}
+
+function clock() {
+  document.getElementById("clock").innerText =
+    new Date().toLocaleTimeString([], {hour: "2-digit", minute: "2-digit"});
+}
+
+setInterval(clock, 1000);
+setInterval(refreshDepartureMinutes, 1000);
+clock();
+updateMessageHeight();
+load();
+setInterval(load, 30000);
+window.addEventListener("resize", startAutoScroll);
+</script>
+
+</body>
+</html>

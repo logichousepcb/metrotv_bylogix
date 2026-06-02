@@ -1,0 +1,262 @@
+[
+    {
+        "station_trigger": "university",
+        "station_name": "University",
+        "source": "TRANSIT APP",
+        "station_settings_url": "/uploads/app-data/university_transit_data.json",
+        "longitude": "-78.8206",
+        "latitude": "42.9547",
+        "distance": ".2",
+        "scroll_speed": 3,
+        "rounded": true,
+        "alert": true,
+        "verticle": false,
+        "trip_count": 2,
+        "pinned_route": "145",
+        "routes": [
+            "145",
+            "8",
+            "5",
+            "12",
+            "13",
+            "19",
+            "34",
+            "44",
+            "47",
+            "48",
+            "49",
+            "81"
+        ]
+    },
+    {
+        "station_trigger": "allen-medical",
+        "station_name": "Allen Medical",
+        "source": "TRANSIT APP",
+        "station_settings_url": "/uploads/app-data/allen_transit_data.json",
+        "longitude": "-78.86994",
+        "latitude": "42.89951",
+        "distance": ".2",
+        "scroll_speed": 2,
+        "rounded": true,
+        "alert": true,
+        "verticle": false,
+        "trip_count": 3,
+        "routes": [
+            "145",
+            "8",
+            "14",
+            "16"
+        ],
+        "pinned_route": ""
+    },
+    {
+        "station_trigger": "utica",
+        "station_name": "Utica",
+        "source": "TRANSIT APP",
+        "station_settings_url": "/uploads/app-data/utica_transit_data.json",
+        "longitude": "-78.865591",
+        "latitude": "49.91173",
+        "distance": ".2",
+        "scroll_speed": 2,
+        "rounded": true,
+        "alert": true,
+        "verticle": false,
+        "trip_count": 3,
+        "routes": [
+            "145",
+            "8",
+            "12",
+            "13"
+        ],
+        "pinned_route": ""
+    },
+    {
+        "station_trigger": "amherst",
+        "station_name": "Amherst",
+        "source": "TRANSIT APP",
+        "station_settings_url": "/uploads/app-data/amherst_transit_data.json",
+        "longitude": "-78.83836",
+        "latitude": "49.93985",
+        "distance": ".2",
+        "scroll_speed": 2,
+        "rounded": true,
+        "alert": true,
+        "verticle": false,
+        "trip_count": 3,
+        "routes": [
+            "145",
+            "8"
+        ],
+        "pinned_route": ""
+    },
+    {
+        "station_trigger": "dl-w",
+        "station_name": "DL&W",
+        "source": "TRANSIT APP",
+        "station_settings_url": "/uploads/app-data/dl_w_transit_data.json",
+        "longitude": "-78.87689",
+        "latitude": "42.87421",
+        "distance": ".2",
+        "scroll_speed": 2,
+        "rounded": true,
+        "alert": true,
+        "verticle": false,
+        "trip_count": 3,
+        "routes": [
+            "145"
+        ],
+        "pinned_route": ""
+    },
+    {
+        "station_trigger": "canalside",
+        "station_name": "Canalside",
+        "source": "TRANSIT APP",
+        "station_settings_url": "/uploads/app-data/canalside_transit_data.json",
+        "longitude": "-78.87680",
+        "latitude": "42.87805",
+        "distance": ".2",
+        "scroll_speed": 2,
+        "rounded": true,
+        "alert": true,
+        "verticle": false,
+        "trip_count": 3,
+        "routes": [
+            "145",
+            "8"
+        ],
+        "pinned_route": ""
+    },
+    {
+        "station_trigger": "seneca",
+        "station_name": "Seneca",
+        "source": "TRANSIT APP",
+        "station_settings_url": "/uploads/app-data/seneca_transit_data.json",
+        "longitude": "-78.87602",
+        "latitude": "42.88100",
+        "distance": ".2",
+        "scroll_speed": 2,
+        "rounded": true,
+        "alert": true,
+        "verticle": false,
+        "trip_count": 3,
+        "routes": [
+            "145",
+            "8"
+        ],
+        "pinned_route": ""
+    },
+    {
+        "station_trigger": "church-street",
+        "station_name": "Church Street",
+        "source": "TRANSIT APP",
+        "station_settings_url": "/uploads/app-data/church_street_transit_data.json",
+        "longitude": "-78.87518",
+        "latitude": "42.88353",
+        "distance": ".2",
+        "scroll_speed": 2,
+        "rounded": true,
+        "alert": true,
+        "verticle": false,
+        "trip_count": 3,
+        "routes": [
+            "145",
+            "8"
+        ],
+        "pinned_route": ""
+    },
+    {
+        "station_trigger": "fountain-plaza",
+        "station_name": "Fountain Plaza",
+        "source": "TRANSIT APP",
+        "station_settings_url": "/uploads/app-data/fountain_plaza_transit_data.json",
+        "longitude": "-78.87316",
+        "latitude": "42.88943",
+        "distance": ".2",
+        "scroll_speed": 2,
+        "rounded": true,
+        "alert": true,
+        "verticle": false,
+        "trip_count": 3,
+        "routes": [
+            "145",
+            "8"
+        ],
+        "pinned_route": ""
+    },
+    {
+        "station_trigger": "summer-best",
+        "station_name": "Summer-Best",
+        "source": "TRANSIT APP",
+        "station_settings_url": "/uploads/app-data/summer_best_transit_data.json",
+        "longitude": "-78.86761",
+        "latitude": "42.90471",
+        "distance": ".2",
+        "scroll_speed": 2,
+        "rounded": true,
+        "alert": true,
+        "verticle": false,
+        "trip_count": 3,
+        "routes": [
+            "145",
+            "8"
+        ],
+        "pinned_route": ""
+    },
+    {
+        "station_trigger": "lasalle",
+        "station_name": "LaSalle",
+        "source": "TRANSIT APP",
+        "station_settings_url": "/uploads/app-data/lasalle_transit_data.json",
+        "longitude": "-78.82998",
+        "latitude": "42.94804",
+        "distance": ".2",
+        "scroll_speed": 2,
+        "rounded": true,
+        "alert": true,
+        "verticle": false,
+        "trip_count": 3,
+        "routes": [
+            "145",
+            "8"
+        ],
+        "pinned_route": ""
+    },
+    {
+        "station_trigger": "humboldt-hospital",
+        "station_name": "Humboldt Hospital",
+        "source": "TRANSIT APP",
+        "station_settings_url": "/uploads/app-data/humboldt_hospital_transit_data.json",
+        "longitude": "-78.85154",
+        "latitude": "42.92751",
+        "distance": ".2",
+        "scroll_speed": 2,
+        "rounded": true,
+        "alert": true,
+        "verticle": false,
+        "trip_count": 3,
+        "routes": [
+            "145",
+            "8"
+        ],
+        "pinned_route": ""
+    },
+    {
+        "station_trigger": "delavan-canisius-college",
+        "station_name": "Delavan-Canisius College",
+        "source": "TRANSIT APP",
+        "station_settings_url": "/uploads/app-data/delavan_canisius_college_transit_data.json",
+        "longitude": "-78.85671",
+        "latitude": "42.92236",
+        "distance": ".2",
+        "scroll_speed": 2,
+        "rounded": false,
+        "alert": true,
+        "verticle": false,
+        "trip_count": 3,
+        "routes": [
+            "145",
+            "8"
+        ],
+        "pinned_route": ""
+    }
+]
