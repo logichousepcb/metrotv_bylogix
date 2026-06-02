@@ -208,3 +208,10 @@ This project is functional and is NOT actively used as a transit information dis
 * Improved configuration management
 * Additional display layouts
 * Centralized station administration
+
+## System Architecture
+* Transit App API → fetch_transit_data.py → raw_transit_cache.json → nfta-transit-tv.html
+
+## Current Rail Only Implimentation
+* This is what is currently displayed in train stations and the project above is meant to replace that and add Bus support.
+  https://metrorail22.github.io/stationsigns/
